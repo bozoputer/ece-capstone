@@ -19,12 +19,7 @@ body {
 	position:relative;
 	z-index:20
 }
-.clr {
-	clear: both;
-	padding: 0;
-	height: 0;
-	margin: 0;
-}
+
 .main {
 	position: relative;
 }
@@ -39,15 +34,7 @@ body {
 	padding:0;
 	display:block;
 }
-.wrapper {
-	width:100%;
-	overflow:hidden;
-	position:relative;
-}
-.extra-wrap {
-	overflow:hidden;
-	display:block;
-}
+
 #splash header, #splash-1 header {
 	display:none;
 	position: fixed;
@@ -73,9 +60,6 @@ header.splash h1 >a{padding:20px 0 21px;}
 
 header.splash h1{display:inline-block }
 
-.center {
-	text-align:center
-}
 p {  color: #000;
 	font-size:18px;
 	line-height:24px;
@@ -98,9 +82,7 @@ a {
 .preloader {
 	background:url(../images/loader.gif) center center no-repeat #000;
 }
-.fright {
-	float:right
-}
+
 .fleft {
 	float:left
 }
@@ -613,22 +595,7 @@ audio {
 	top:-1000px;
 	text-indent:-1000px
 }
-/***** 17. ISOTOPE FILTERING *****/
 
-.isotope-item {
-	z-index: 2;
-}
-.isotope-hidden.isotope-item {
-	pointer-events: none;
-	z-index: 1;
-}
-.isotope-item {
-	z-index: 2;
-}
-.isotope-hidden.isotope-item {
-	pointer-events: none;
-	z-index: 1;
-}
 .box img {
 	width: 100%;
 }
@@ -638,102 +605,6 @@ img {
 }
 #work_container {
 	position:relative;
-}
-.share_block {
-	float:left;
-	margin:20px 0 0 0;
-	position:relative;
-	overflow:hidden;
-	width:91px;
-	background:url(../images/bg-light.png);
-}
-.share_block.post {
-	float:none;
-	margin:0
-}
-/*share_block */
-.share_caption {
-	color:#000;
-	width:91px;
-	height:40px;
-	font-size:16px;
-	line-height:40px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight:bold;
-	float:left;
-	cursor:default;
-	
-}
-.share_caption span {
-	display:inline-block;
-	width:14px;
-	height:14px;
-	margin:13px 10px 0 10px;
-	background:url(../images/btn-soc1.png) no-repeat 0 0;
-}
-.share_block:hover .share_caption {
-	background:#fff;
-	color:#000;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-.share_block:hover span {
-	background:url(../images/btn-soc1_hover.png) no-repeat 0 0;
-}
-.icons_share {
-	position:relative;
-	overflow:hidden;
-	float:left;
-}
-.share_expan {
-	height:40px;
-	padding:0;
-	width:140px;
-	position:absolute;
-	left:91px;
-	opacity:0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter:alpha(opacity=0);
-}
-.share_expan a {
-	width:35px;
-	height:40px;
-	display:block;
-	float:left;
-	text-decoration:none;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-.share_expan a:hover {
-	background-color:#fff
-}
-.social_icon1 {
-	background:url(../images/social_icon1.png) no-repeat 50% 50%;
-}
-.social_icon2 {
-	background:url(../images/social_icon2.png) no-repeat 50% 50%;
-}
-.social_icon3 {
-	background:url(../images/social_icon6.png) no-repeat 50% 50%;
-}
-.social_icon4 {
-	background:url(../images/social_icon5.png) no-repeat 50% 50%;
-}
-.social_icon1:hover {
-	background:url(../images/social_icon1_hover.png) no-repeat 50% 50%;
-}
-.social_icon2:hover {
-	background:url(../images/social_icon2_hover.png) no-repeat 50% 50%;
-}
-.social_icon3:hover {
-	background:url(../images/social_icon6_hover.png) no-repeat 50% 50%;
-}
-.social_icon4:hover {
-	background:url(../images/social_icon5_hover.png) no-repeat 50% 50%;
 }
 
 #easyTooltip {
