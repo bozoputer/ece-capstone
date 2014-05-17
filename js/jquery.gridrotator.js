@@ -138,7 +138,7 @@
 		// rotate3d ||
 		// rotateLeftScale || rotateRightScale || rotateTopScale || rotateBottomScale || 
 		// random
-		animType : 'random',
+		animType : 'slideRight',
 		// animation speed
 		animSpeed : 800,
 		// animation easings
