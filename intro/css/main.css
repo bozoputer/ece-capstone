@@ -104,8 +104,9 @@ a {
 	transition: all 0.3s ease;
 }
 .splash-menu a:hover {
-	color:#a63343;
-	background:#fff
+	color:#fff;
+	background:#0066ae;
+	border-left: 1px solid white;
 }
 /* splash menu elements */
 
