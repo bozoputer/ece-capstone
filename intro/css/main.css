@@ -119,7 +119,7 @@ a {
 }
 .enter {
 	background:url(../images/bg-light.png);
-	color:#000;
+	color:#0066ae;
 	font-size:30px;
 	text-decoration:none;
 	padding:28px 30px 30px;
@@ -127,7 +127,7 @@ a {
 	line-height:32px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	position:absolute;
-	font-weight:300;
+	font-weight:700;
 	top:0;
 	left:238px;
 	z-index:2;
