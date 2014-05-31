@@ -115,7 +115,7 @@ a {
 	position:relative;
 	cursor:default;
 	display:block;
-	width:422px
+	width:422px;
 }
 .enter {
 	background:url(../images/bg-light.png);
@@ -151,7 +151,7 @@ a {
 
 header h1 {
 	float:left;
-	margin:0
+	margin:0;
 }
 header h1 > a {
 	position:relative;	
@@ -163,10 +163,10 @@ header h1 > a {
 	z-index:100;
 }
 header.splash {
-	box-shadow:none !important
+	box-shadow:none !important;
 }
 header.splash h1 {
-	float:none
+	float:none;
 }
 header h1 > a {
 	padding:9px 0 11px;
@@ -208,7 +208,7 @@ header h1 > a {
 }
 
 .btn-logo {
-	width:100%
+	width:80%;
 }
 .menu-mobile {
 	display:none !important
@@ -233,9 +233,7 @@ header h1 > a {
  @media only screen and (max-width: 740px) {
 /****** header ******/	
 header h1 a {
-	padding: 5px 0;
-	width:100%;
-	text-align:center;
+	display: none;
 }
 
 header.splash h1>a{padding:5px 0 }
@@ -245,22 +243,23 @@ header.splash h1, header h1 {
 	float:none
 }
 header.splash .select-menu {
-	width:94%
+	width:60%
 }
 .select-menu {
 	width:180px;
-	margin:6px
+	margin:6px;
 }
 
 }
 
  @media only screen and (max-width: 480px) {
 
-.select-menu {
-	width:97%
-}
+
 
 }
  @media only screen and (max-width: 320px) {
-
+ 	.btn-logo {
+	width:50%;
+}
+ 	
 }
