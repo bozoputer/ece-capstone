@@ -7,11 +7,37 @@
   <link rel="stylesheet" href="css/app.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
-<body>
-<?php  
+<body>  
+<?php
 
+include('../ext_includes/capstone.inc.php');
 
+$result = mysqli_query($con,"SELECT * FROM records");
 
-?>
+echo "<table>
+<tr>
+<th>Artist</th>
+<th>Title</th>
+<th>Year</th>
+<th>Status</th>
+<th>Price</th>
+<th>Condition</th>
+</tr>";
+
+while($row = mysqli_fetch_array($result)) {
+  echo "<tr>";
+  echo "<td>" . $row['artist'] . "</td>";
+  echo "<td>" . $row['title'] . "</td>";
+  echo "<td>" . $row['year'] . "</td>";
+  echo "<td>" . $row['status'] . "</td>";
+  echo "<td>" . $row['price'] . "</td>";
+  echo "<td>" . $row['condition'] . "</td>";
+  echo "</tr>";
+}
+
+echo "</table>";
+
+mysqli_close($con);
+?> 
 </body>
 </html>
