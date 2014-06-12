@@ -10,7 +10,7 @@
 </head>
 <body>  
 <div class="row">
-	<div class="small-12 columns" style="border: 1px solid red;">
+	<div class="small-12 columns priceList" style="border: 1px solid red;">
 		<?php
 
 		include('../ext_includes/capstone.inc.php');
