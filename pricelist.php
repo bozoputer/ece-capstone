@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>E's Blue Note Record Collection - Prices</title>
   <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/styles.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>  
