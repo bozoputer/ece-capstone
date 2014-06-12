@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>E's Blue Note Record Collection - Admin</title>
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-	<link rel="stylesheet" href="css/app.css" />  
 </head>
 <body>
 <?php  
