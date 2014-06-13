@@ -17,33 +17,43 @@
 <form class="pure-form pure-form-aligned">
 	<fieldset>
 	    <div class="pure-control-group">
-	        <label for="name">Artist</label>
-	        <input id="name" type="text" placeholder="Artist Name">
+	        <label for="artist">Artist</label>
+	        <input id="artist" type="text" placeholder="Artist Name" required>
 	    </div>
 
 	    <div class="pure-control-group">
-	        <label for="password"></label>
-	        <input id="password" type="password" placeholder="Password">
+	        <label for="title">Album</label>
+	        <input id="title" type="text" placeholder="Album Title">
 	    </div>
 
 	    <div class="pure-control-group">
-	        <label for="email">Email Address</label>
-	        <input id="email" type="email" placeholder="Email Address">
+	        <label for="year">Year</label>
+	        <input id="year" type="number" placeholder="Release Year" required>
 	    </div>
 
 	    <div class="pure-control-group">
-	        <label for="foo">Supercalifragilistic Label</label>
-	        <input id="foo" type="text" placeholder="Enter something here...">
+	        <label for="status">Status</label>
+	        <select id="status" required>
+	            <option>Buying</option>
+	            <option>Selling</option>
+	        </select>
+        </div>
+
+	    <div class="pure-control-group">
+	        <label for="price">Price</label>
+	        <input id="price" type="text" placeholder="Price" required>
+	    </div>
+
+	    <div class="pure-control-group">
+	        <label for="condition">Condition</label>
+	        <input id="condition" type="text" placeholder="Condition" required>
 	    </div>
 
 	    <div class="pure-controls">
-	        <label for="cb" class="pure-checkbox">
-	            <input id="cb" type="checkbox"> I've read the terms and conditions
-	        </label>
-
-	        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+	        <button type="submit" class="pure-button pure-button-primary">Add album</button>
 	    </div>
 	</fieldset>
 </form>
+
 </body>
 </html>
