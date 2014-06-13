@@ -54,6 +54,10 @@
 	    </div>
 	</fieldset>
 </form>
-
+<script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="js/jquery.validation.js"></script>
+<script>
+$("form").validate();
+</script>
 </body>
 </html>
