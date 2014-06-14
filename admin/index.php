@@ -14,7 +14,7 @@
 ?>
 
 	
-<form class="pure-form pure-form-aligned">
+<form class="pure-form pure-form-aligned" id="addRecord">
 	<fieldset>
 	    <div class="pure-control-group">
 	        <label for="artist">Artist</label>
@@ -22,13 +22,13 @@
 	    </div>
 
 	    <div class="pure-control-group">
-	        <label for="title">Album</label>
-	        <input id="title" type="text" placeholder="Album Title">
+	        <label for="album">Album</label>
+	        <input id="album" type="text" placeholder="Album Title" required>
 	    </div>
 
 	    <div class="pure-control-group">
 	        <label for="year">Year</label>
-	        <input id="year" type="number" placeholder="Release Year" required>
+	        <input id="year" type="text" placeholder="Release Year" required>
 	    </div>
 
 	    <div class="pure-control-group">
@@ -50,14 +50,38 @@
 	    </div>
 
 	    <div class="pure-controls">
-	        <button type="submit" class="pure-button pure-button-primary">Add album</button>
+	        <button type="submit" value="Validate!" class="pure-button pure-button-primary">Add album</button>
 	    </div>
 	</fieldset>
 </form>
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
-<script src="js/jquery.validation.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/additional-methods.min.js"></script>
 <script>
-$("form").validate();
+jQuery.validator.setDefaults({
+debug: true,
+success: "valid"
+});
+
+$("#addRecord").validate({
+	rules: {
+		artist: {
+			required: true
+		},
+		title: {
+			required: true
+		},
+		year: {
+			required: true
+		},
+		price: {
+			required: true
+		},
+		condition: {
+			required: true
+		}
+	}
+});
 </script>
 </body>
 </html>
