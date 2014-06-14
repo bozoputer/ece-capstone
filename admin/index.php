@@ -14,8 +14,9 @@
 
 ?>
 
-	
-<form class="pure-form pure-form-aligned" id="addRecord">
+<div id="addRecord">
+<h3>Add new album to price table</h3>
+<form class="pure-form pure-form-aligned">
 	<fieldset>
 	    <div class="pure-control-group">
 	        <label for="artist">Artist</label>
@@ -55,6 +56,7 @@
 	    </div>
 	</fieldset>
 </form>
+</div>
 <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/additional-methods.min.js"></script>
