@@ -13,7 +13,7 @@
 	<div class="small-12 columns priceList" style="border: 1px solid red;">
 		<?php
 
-		include('../ext_includes/capstone.inc.php');
+		require('../ext_includes/capstone.inc.php');
 
 		$result = mysqli_query($con,"SELECT * FROM records");
 
