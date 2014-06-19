@@ -13,9 +13,15 @@
 	<div class="small-12 columns priceList" style="border: 1px solid red;">
 		<?php
 
-		require('../ext_includes/capstone.inc.php');
+		require'../ext_includes/capstone2.inc.php';
+		$db = mysqli_connect($host, $user_name, $password, $db);
 
-		$result = mysqli_query($con,"SELECT * FROM records");
+		// Check connection
+		if (mysqli_connect_errno()) {
+		  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+		}
+
+		$result = mysqli_query($db,"SELECT * FROM records");
 
 		echo "<table>
 		<tr>
@@ -24,7 +30,7 @@
 		<th>Year</th>
 		<th>Status</th>
 		<th>Price</th>
-		<th>Condition</th>
+		<th>Shape</th>
 		</tr>";
 
 		while($row = mysqli_fetch_array($result)) {
@@ -34,13 +40,13 @@
 		  echo "<td>" . $row['year'] . "</td>";
 		  echo "<td>" . $row['status'] . "</td>";
 		  echo "<td>" . $row['price'] . "</td>";
-		  echo "<td>" . $row['condition'] . "</td>";
+		  echo "<td>" . $row['shape'] . "</td>";
 		  echo "</tr>";
 		}
 
 		echo "</table>";
 
-		mysqli_close($con);
+		mysqli_close($db);
 		?> 
 	</div>
 </div>
