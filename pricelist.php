@@ -29,7 +29,7 @@
 		<th>Title</th>
 		<th>Year</th>
 		<th>Price</th>
-		<th>Shape</th>
+		<th>Condition</th>
 		</tr>";
 
 		while($row = mysqli_fetch_array($result)) {
