@@ -30,14 +30,6 @@
 	    </div>
 
 	    <div class="pure-control-group">
-	        <label for="status">Status</label>
-	        <select id="status" name="status">
-	            <option>Buying</option>
-	            <option>Selling</option>
-	        </select>
-        </div>
-
-	    <div class="pure-control-group">
 	        <label for="price">Price</label>
 	        <input id="price" name="price" type="text" placeholder="Price">
 	    </div>
@@ -62,6 +54,7 @@ $(document).ready(function() {
 		var title = $("#title").val();
 		var year = $("#year").val();
 		var price = $("#price").val();
+		var status = $("#status").val();
 		var pricePattern = new RegExp (/^([1-9]{1}[\d]{0,2}(\,[\d]{3})*(\.[\d]{0,2})?|[1-9]{1}[\d]{0,}(\.[\d]{0,2})?|0(\.[\d]{0,2})?|(\.[\d]{1,2})?)$/)
 		var priceResult = price.match(pricePattern);
 		var shape = $("#shape").val().toLowerCase();
