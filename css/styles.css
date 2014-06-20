@@ -44,7 +44,14 @@ p {
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background: #cd005e; }
+        background: #cd005e;
+}
+
+#bluenote p {
+	font-family: 'Oswald', Arial, sans-serif;
+	font-weight: 300;
+	padding: 0 10px;
+}
 
 /* *****Price list page styles***** */
 
