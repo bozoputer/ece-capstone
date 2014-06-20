@@ -8,65 +8,68 @@
 
  <head>
  <meta charset="utf-8">
- <title>E's Blue Note Record Collection</title>
+ <title>Live Grid</title>
  <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
- <link rel="stylesheet" href="css/grid-gallery.css">
  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-
+ <link rel="stylesheet" href="css/grid-gallery.css">
  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
  <script src="js/jquery.gridrotator.js"></script>
  <script>
- 	jQuery(window).load(function() {		
-			
-//==========================splash menu hovers					
-	jQueryx = jQuery(window).width();
-	if(jQueryx >= 1100)
-	{ 
-	 $("#ri-grid").wrap("<div data-liffect='slideTop'></div>");
-	
-	}	
-	
-	if(jQueryx >= 768)
-	{ 
-		
-		jQuery('.enter').hover(
-	  function(){
-	 jQuery(this).find("span").stop().animate({marginLeft:24},300,'easeOutBack')},  			
-		 
-	 function(){
-	 jQuery(this).find("span").stop().animate({marginLeft:14},400,'easeOutQuart')}  	
-	)
-
-	jQuery('.enter').toggle(
-	  function(){
-     jQuery(this).stop().animate({left:'-300px'},400)},  			
-		 
-	 function(){
+    jQuery(window).load(function() {        
+            
+                    
+                    
+//==========================splash menu hovers                  
+    jQueryx = jQuery(window).width();
+    if(jQueryx >= 1100)
+    { 
+     $("#ri-grid").wrap("<div data-liffect='slideTop'></div>");
+    
+    }   
+    
+    if(jQueryx >= 768)
+    { 
+        
+        jQuery('.enter').hover(
+      function(){
+     jQuery(this).find("span").stop().animate({marginLeft:24},300,'easeOutBack')},              
+         
+     function(){
+     jQuery(this).find("span").stop().animate({marginLeft:14},400,'easeOutQuart')}      
+    )
+        
+    
+    jQuery('.enter').toggle(
+      function(){
+     jQuery(this).stop().animate({left:'-300px'},400)},             
+         
+     function(){
     jQuery(this).stop().animate({left:'238px'},400);})
-		  
+          
   
     jQuery('.enter').toggle(
-	  function(){
-		 jQuery('.splash-menu').stop().delay(200).animate({left:'238px'},500,'easeOutQuart')},  			
-		 
-	 function(){
-		jQuery('.splash-menu').stop().delay(200).animate({left:'-400px'},400);})
-		
-		
- 	  jQuery('.enter').toggle(
-	  function(){
-		 jQuery(this).parent().stop().animate({width:'808px'},500,'easeOutQuart')},  			
-		 
-	 function(){
-		jQuery(this).parent().stop().animate({width:'422px'},400);})
+      function(){
+         jQuery('.splash-menu').stop().delay(200).animate({left:'238px'},500,'easeOutQuart')},              
+         
+     function(){
+        jQuery('.splash-menu').stop().delay(200).animate({left:'-400px'},400);})
+        
+        
+      jQuery('.enter').toggle(
+      function(){
+         jQuery(this).parent().stop().animate({width:'808px'},500,'easeOutQuart')},             
+         
+     function(){
+        jQuery(this).parent().stop().animate({width:'422px'},400);})
+        
 
-    }	
-	
-		//==========================load pics    
-	
+    }   
+    
+        //==========================load pics    
+    
        jQuery("div[data-liffect] ul li").each(function (i) {
         jQuery(this).attr("style", "-webkit-animation-delay:" + i * 100 + "ms;"
                 + "-moz-animation-delay:" + i * 100 + "ms;"
@@ -74,11 +77,11 @@
                 + "animation-delay:" + i * 100 + "ms;");
         if (i == jQuery("div[data-liffect] ul li").size() -1) {
             jQuery("div[data-liffect]").addClass("play")
-        }			
-    })	
-		
-		});	
-		 
+        }           
+    })  
+        
+        }); 
+         
  </script>
 
  <!--[if lt IE 8]>
@@ -89,14 +92,45 @@
      </div>
     <![endif]-->
  <!--[if lt IE 9]>
-   		<script src="js/html5.js"></script>
-  		<link rel="stylesheet" href="css/ie.css"> 
-	<![endif]-->
+        <script src="js/html5.js"></script>
+        <link rel="stylesheet" href="css/ie.css"> 
+    <![endif]-->
 
  </head>
  <body id="splash">
 <div class="spinner"></div>
 
+<!--=======color panel======-->
+<div class="control-panel">
+   <div id="tools_icon"></div>  
+    <!-- select-page -->
+  <div class="box-select">
+      <div class="select-page"> Home page type: <br>
+       <a class="active" href="index.html"><span></span> animated image grid</a> <br>
+       <a  href="index_1.html"><span></span> image slideshow</a> <br>
+        <a href="index_2.html"><span></span> Fullscreen Background Youtube Player</a><br>
+        <a href="index_3.html"><span></span> Fullscreen Background Vimeo Player</a>
+         </div> 
+        <div class="btn-close button">Close</div> </div>
+  </div>
+
+
+<!--==============================header=================================-->
+<header class="splash">
+   <div class="btn-logo"> 
+    <!--=======logo======-->
+    <h1><a href="index.html"><img alt="Live Grid" src="images/logo.png"></a></h1>
+    <!--=======menu======-->
+    <ul class="splash-menu menu-mobile">
+       <li><a href="profile.html">Profile</a></li>
+       <li><a href="portfolio.html">Portfolio</a></li>
+       <li><a href="blog.html">Blog</a></li>
+       <li><a href="contacts.html">Contacts</a></li>
+     </ul>
+    <div class="enter">Enter <span></span></div>
+    <div class="clear"></div>
+  </div>
+ </header>
 <!--==============================content=================================-->
 
 <div class="container" id="content">
@@ -180,36 +214,37 @@
  </div>
 <script>
 
- 	jQuery(window).load(function() {		
-	//==========================gridrotator (splash gallery)
-		
-		jQuery('#ri-grid').gridrotator( {
-					rows		: 6,
-					columns		: 8,
-					maxStep		: 2,
-					interval	: 2000,
-					w1024		: {
-						rows	: 7,
-						columns	: 6
-					},
-					w768		: {
-						rows	: 7,
-						columns	: 5
-					},
-					w480		: {
-						rows	: 6,
-						columns	: 4
-					},
-					w320		: {
-						rows	: 7,
-						columns	: 4
-					},
-					w240		: {
-						rows	: 7,
-						columns	: 3
-					},
-				});		
+    jQuery(window).load(function() {        
+    //==========================gridrotator (splash gallery)
+        
+        jQuery('#ri-grid').gridrotator( {
+                    rows        : 6,
+                    columns     : 8,
+                    maxStep     : 2,
+                    interval    : 2000,
+                    w1024       : {
+                        rows    : 7,
+                        columns : 6
+                    },
+                    w768        : {
+                        rows    : 7,
+                        columns : 5
+                    },
+                    w480        : {
+                        rows    : 6,
+                        columns : 4
+                    },
+                    w320        : {
+                        rows    : 7,
+                        columns : 4
+                    },
+                    w240        : {
+                        rows    : 7,
+                        columns : 3
+                    },
+                });     
     });
+
 
 </script> 
 <script src="js/main.js"></script>
