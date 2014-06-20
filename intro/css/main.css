@@ -157,13 +157,13 @@ a {
 }
 .enter {
 	background:url(../images/bg-white.jpg);
-	color:#dc0013;
-	font-size:35px;
+	color:#cd005e;
+	font-size:25px;
 	text-decoration:none;
 	padding:28px 30px 30px;
 	display:inline-block;
 	line-height:32px;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Oswald', Arial, sans-serif;
 	position:absolute;
 	font-weight:300;
 	top:0;
@@ -178,7 +178,7 @@ a {
 .enter span {
 	display:inline-block;
 	background:url(../images/arrow-splash.png) no-repeat 0 0;
-	width:11px;
+	width:21px;
 	height:21px;
 	margin:8px 0 0 14px;
 }
@@ -205,7 +205,7 @@ header h1 {
 }
 header h1 > a {
 	position:relative;
-	background-color:#0066ae;
+	background-color:#333333;
 	display:block;
 	margin:0;
 	width:238px;
