@@ -28,7 +28,6 @@
 		<th>Artist</th>
 		<th>Title</th>
 		<th>Year</th>
-		<th>Status</th>
 		<th>Price</th>
 		<th>Shape</th>
 		</tr>";
@@ -38,7 +37,6 @@
 		  echo "<td>" . $row['artist'] . "</td>";
 		  echo "<td>" . $row['title'] . "</td>";
 		  echo "<td>" . $row['year'] . "</td>";
-		  echo "<td>" . $row['status'] . "</td>";
 		  echo "<td>" . $row['price'] . "</td>";
 		  echo "<td>" . $row['shape'] . "</td>";
 		  echo "</tr>";

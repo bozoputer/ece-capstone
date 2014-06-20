@@ -12,7 +12,6 @@ if (mysqli_connect_errno()) {
 $artist = ($_POST['artist']);
 $title = ($_POST['title']);
 $year = ($_POST['year']);
-$status = ($_POST['status']);
 $price = ($_POST['price']);
 $shape = ($_POST['shape']);
 
@@ -21,12 +20,11 @@ $shape = ($_POST['shape']);
 $artist = $db->escape_string($artist);
 $title = $db->escape_string($title);
 $year = $db->escape_string($year);
-$status = $db->escape_string($status);
 $price = $db->escape_string($price);
 $shape = $db->escape_string($shape);
 
 //Create and run the SQL.
-$sql = "INSERT INTO records (artist, title, year, status, price, shape) VALUES  ('$artist', '$title', '$year', '$status', '$price', '$shape')";
+$sql = "INSERT INTO records (artist, title, year, price, shape) VALUES  ('$artist', '$title', '$year', '$price', '$shape')";
 
 if (!mysqli_query($db,$sql)) {
   die('Error: ' . mysqli_error($db));

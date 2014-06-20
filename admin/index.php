@@ -54,7 +54,6 @@ $(document).ready(function() {
 		var title = $("#title").val();
 		var year = $("#year").val();
 		var price = $("#price").val();
-		var status = $("#status").val();
 		var pricePattern = new RegExp (/^([1-9]{1}[\d]{0,2}(\,[\d]{3})*(\.[\d]{0,2})?|[1-9]{1}[\d]{0,}(\.[\d]{0,2})?|0(\.[\d]{0,2})?|(\.[\d]{1,2})?)$/)
 		var priceResult = price.match(pricePattern);
 		var shape = $("#shape").val().toLowerCase();
