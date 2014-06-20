@@ -68,6 +68,10 @@ dialog .close-reveal-modal, .reveal-modal .close-reveal-modal {
     cursor: pointer;
 }
 
+span#finest {
+	font-style: italic;
+}
+
 /* *****Price list page styles***** */
 
 .priceList table {
