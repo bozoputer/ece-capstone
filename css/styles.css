@@ -1,3 +1,24 @@
+/* *****About page styles***** */
+
+.firstRow {
+	margin: 2% auto;
+}
+.secondRow {
+
+}
+.bnBlue {
+	background-color: #0066ae;
+}
+.bnBlue.top-bar {
+	background-color: #0066ae;
+}
+#logo {
+	display: block;
+	margin: auto;
+}
+
+/* *****Price list page styles***** */
+
 .priceList table {
 	margin: 0 auto;
 }
