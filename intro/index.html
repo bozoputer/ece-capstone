@@ -18,9 +18,7 @@
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
  <script src="js/jquery.gridrotator.js"></script>
  <script>
-    jQuery(window).load(function() {        
-            
-                    
+    jQuery(window).load(function() {                   
                     
 //==========================splash menu hovers                  
     jQueryx = jQuery(window).width();
@@ -28,44 +26,6 @@
     { 
      $("#ri-grid").wrap("<div data-liffect='slideTop'></div>");
     
-    }   
-    
-    if(jQueryx >= 768)
-    { 
-        
-        jQuery('.enter').hover(
-      function(){
-     jQuery(this).find("span").stop().animate({marginLeft:24},300,'easeOutBack')},              
-         
-     function(){
-     jQuery(this).find("span").stop().animate({marginLeft:14},400,'easeOutQuart')}      
-    )
-        
-    
-    jQuery('.enter').toggle(
-      function(){
-     jQuery(this).stop().animate({left:'-300px'},400)},             
-         
-     function(){
-    jQuery(this).stop().animate({left:'238px'},400);})
-          
-  
-    jQuery('.enter').toggle(
-      function(){
-         jQuery('.splash-menu').stop().delay(200).animate({left:'238px'},500,'easeOutQuart')},              
-         
-     function(){
-        jQuery('.splash-menu').stop().delay(200).animate({left:'-400px'},400);})
-        
-        
-      jQuery('.enter').toggle(
-      function(){
-         jQuery(this).parent().stop().animate({width:'808px'},500,'easeOutQuart')},             
-         
-     function(){
-        jQuery(this).parent().stop().animate({width:'422px'},400);})
-        
-
     }   
     
         //==========================load pics    
@@ -99,21 +59,6 @@
  </head>
  <body id="splash">
 <div class="spinner"></div>
-
-<!--=======color panel======-->
-<div class="control-panel">
-   <div id="tools_icon"></div>  
-    <!-- select-page -->
-  <div class="box-select">
-      <div class="select-page"> Home page type: <br>
-       <a class="active" href="index.html"><span></span> animated image grid</a> <br>
-       <a  href="index_1.html"><span></span> image slideshow</a> <br>
-        <a href="index_2.html"><span></span> Fullscreen Background Youtube Player</a><br>
-        <a href="index_3.html"><span></span> Fullscreen Background Vimeo Player</a>
-         </div> 
-        <div class="btn-close button">Close</div> </div>
-  </div>
-
 
 <!--==============================header=================================-->
 <header class="splash">
