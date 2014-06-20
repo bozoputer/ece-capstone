@@ -3,60 +3,45 @@
 .firstRow {
 	margin: 1% auto;
 }
-
 .fullWidth {
    width: 100%;
    margin-left: auto;
    margin-right: auto;
    max-width: initial;
 }
-
 .fullWidth .columns {
 	padding: 0;
 }
 
-.bnBlue {
-	background-color: #0066ae;
-}
-.bnBlueText {
-	color: #333333;
-}
-.bnBlue.top-bar {
+.navBar.top-bar {
 	background-color: #333333;
 }
 #logo {
 	display: block;
 	margin: auto;
 }
-
 a {
 	color: #cd005e;
 }
-
 #animated {
 	padding-top: 15px;
 }
-
 p {
 	font-family: 'Oswald', Arial, sans-serif;
 	font-size: 24px;
 	padding: 0 5px;
 }
-
 .top-bar-section li:not(.has-form) a:not(.button):hover {
         background: #cd005e;
 }
-
 #bluenote p {
 	font-family: 'Oswald', Arial, sans-serif;
 	font-weight: 300;
 	padding: 0 10px;
 }
-
 a:hover, a:focus {
     color: #0066ae;
 }
-
 dialog .close-reveal-modal, .reveal-modal .close-reveal-modal {
     font-size: 2.5rem;
     line-height: 1;
@@ -67,11 +52,9 @@ dialog .close-reveal-modal, .reveal-modal .close-reveal-modal {
     font-weight: bold;
     cursor: pointer;
 }
-
 span#finest {
 	font-style: italic;
 }
-
 /* *****Price list page styles***** */
 
 .priceList table {
