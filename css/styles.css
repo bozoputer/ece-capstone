@@ -43,6 +43,9 @@ p {
 	padding: 0 5px;
 }
 
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+        background: #cd005e; }
+
 /* *****Price list page styles***** */
 
 .priceList table {
@@ -57,7 +60,4 @@ p {
 	margin: auto;
 	padding-bottom: 20px;
 	}
-
-
-
 }
