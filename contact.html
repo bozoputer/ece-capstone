@@ -1,55 +1,51 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-	<title>E's Blue Notes - Contact Me</title>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E's Blue Note Record Collection - Contact Me</title>
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+  <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
+<body>		
+<h3>Get in touch via e-mail</h3>
+		<p class="contact_info">All fields are required</p>
+		
+		<form method="post" action="php/contact-send.php" id="contact_form">
 
-<body>
-<!-- Wrapper starts here -->
-<div id="wrapper">
-	<!-- Main wrap -->
-	<div id="main_wrap">
-		<!-- Main -->
-   		 <div id="main">			
-		      <h3>Get in touch via e-mail</h3>
-		      		<p class="contact_info">All fields are required</p>
-		      		
-		     			<form method="post" action="php/contact-send.php" id="contact_form">
+		<p><label class="form_label" for='name'>Name</label>
+			<input id='form_name' type='text' name='name' class="textbox" value='' /></p>
+			
+		<p><label class="form_label" for='email'>E-mail</label>
+			<input id='form_email' type='text' name='email' class="textbox" value='' /></p>
+			
+		<p><label class="form_label" for='message'>Message</label>
+			<textarea id='form_message' rows='5' cols='25' name='message' class="textbox"></textarea></p>
 
-						<p><label class="form_label" for='name'>Name</label>
-							<input id='form_name' type='text' name='name' class="textbox" value='' /></p>
-							
-						<p><label class="form_label" for='email'>E-mail</label>
-							<input id='form_email' type='text' name='email' class="textbox" value='' /></p>
-							
-						<p><label class="form_label" for='message'>Message</label>
-							<textarea id='form_message' rows='5' cols='25' name='message' class="textbox"></textarea></p>
-				
-						<input id='form_submit' type='submit' name='submit' value='Send message' />
-						
-						<!-- hidden input for basic spam protection -->
-						<div class='hide'>
-							<label for='spamCheck'>Do not fill out this field</label>
-							<input id="spamCheck" name='spam_check' type='text' value='' />
-						</div>		
-					</form>		
-					<!-- contact form ends here-->	
-			
-					<!-- This div will be shown if mail was sent successfully -->		
-					<div class="hide success">
-					<p>Thanks! Your email has been sent.</p>
-					</div>
-			
-					</div>
-					
-					
-              </div>  
-      		<!-- Content ends here -->
-	      </div>
-	      <!-- Main ends here -->             
-	</div>  
-    <!-- Main wrap ends here -->
+		<input id='form_submit' type='submit' name='submit' value='Send message' />
+		
+		<!-- hidden input for basic spam protection -->
+		<div class='hide'>
+			<label for='spamCheck'>Do not fill out this field</label>
+			<input id="spamCheck" name='spam_check' type='text' value='' />
+		</div>		
+	</form>		
+	<!-- contact form ends here-->	
+
+	<!-- This div will be shown if mail was sent successfully -->		
+	<div class="hide success">
+	<p>Thanks! Your email has been sent.</p>
+	</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+$(document).ready(function() { 
+  setTimeout(function() { 
+      $('#animated').attr('src', 'images/slowAnimate.gif'); }, 5000);
+});
+</script>
 </body>
 </html>
