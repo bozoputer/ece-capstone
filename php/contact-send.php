@@ -7,7 +7,7 @@ if(isset($_POST['name']) && empty($_POST['spam_check']))
 	require 'email-validator.php';
 	$validator = new EmailAddressValidator();
 	
-	//Includa config file
+	//Include config file
 	include 'config.php';
 	
 	//Declare our $errors variable we will be using later to store any errors.
@@ -51,7 +51,7 @@ if(isset($_POST['name']) && empty($_POST['spam_check']))
 		}
 		else 
 		{
-			echo 'There was a problem sending your email.';
+			echo 'There was a problem sending your email. Please try again.';
 		}
 		
 	}
