@@ -187,19 +187,7 @@ a {
 /*
  ******************* header
  */
- header, #portfolio-page header {
-	background:url(../images/bg-dark.png)
-}
-#portfolio-page header {
-	background-color:#828282;
-}
-#portfolio-page header {
-	position:fixed
-}
-#blog_page header {
-	position:fixed;
-	z-index:100
-}
+
 header h1 {
 	float:left;
 	margin:0
@@ -288,24 +276,13 @@ header h1 span {
 	background-color:#000;
 	border:1px solid #000;
 	color:#fff;
-}
+	}
 .enter {
 	display:none
-}
+	}
 
 }
- @media only screen and (max-width: 767px) and (min-width: 600px) {
-
-}
- @media only screen and (max-width: 767px) and (min-width: 480px) {
-
-}
- @media only screen and (max-width: 767px) and (min-width: 740px) {
-
-}
- @media only screen and (max-width: 740px) and (min-width: 480px) {
-
-}
+ 
  @media only screen and (max-width: 740px) {
 /****** header ******/	
 header h1 a {
@@ -325,21 +302,15 @@ header.splash .select-menu {
 .select-menu {
 	width:180px;
 	margin:6px
+	}
 }
-
-}
- @media only screen and (max-width: 600px) and (min-width: 480px) {
-
-}
+ 
  @media only screen and (max-width: 480px) {
 .menu {
 	float:none
-}
+	}
 .select-menu {
 	width:97%
-}
-
-}
- @media only screen and (max-width: 320px) {
+	}
 
 }
