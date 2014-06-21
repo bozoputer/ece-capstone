@@ -72,6 +72,16 @@ table {
 	margin: 0 auto;
 }
 
+button, .button {
+    background-color: #0066ae;
+    color: #FFF;
+    transition: background-color 100ms ease-out 0s;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #cd005e;
+}
+
 /* ***** ORBIT SLIDER ***** */
 .orbit-container .orbit-next, .orbit-container .orbit-next > span {
 	display: none;
