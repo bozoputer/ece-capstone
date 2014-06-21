@@ -141,11 +141,11 @@
             </h5>
 
             <div class="show-for-small" align="center">
-              <a href="#" class="small radius button" data-reveal-id="pricelist">Call To Action!</a>
+              <a href="#" class="small radius button" data-reveal-id="pricelist">Prices</a>
 
               <br>
 
-              <a href="#" class="small radius button">Call To Action!</a>
+              <a href="#" class="small radius button">Contact</a>
             </div>
           </div>
         <div class="large-6 small-6 columns">
@@ -158,9 +158,9 @@
   </div>
 
       <div class="large-4 columns hide-for-small">
-        <h4>Get In Touch!</h4><hr/>
-        <a class="large button expand" href="#" data-reveal-id="pricelist">Call To Action!</a>
-        <a class="large button expand" href="#">Call To Action!</a>
+        <h4>Additional Info</h4><hr/>
+        <a class="large button expand" href="#" data-reveal-id="pricelist">View Price List</a>
+        <a class="large button expand" href="#">Questions? Contact Me!</a>
       </div>
     </div>
   </div>
