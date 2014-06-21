@@ -56,22 +56,22 @@ $(document).ready(function() {
 		var price = $("#price").val();
 		var pricePattern = new RegExp (/^([1-9]{1}[\d]{0,2}(\,[\d]{3})*(\.[\d]{0,2})?|[1-9]{1}[\d]{0,}(\.[\d]{0,2})?|0(\.[\d]{0,2})?|(\.[\d]{1,2})?)$/)
 		var priceResult = price.match(pricePattern);
-		var shape = $("#shape").val().toLowerCase();
+		var shape = $("#shape").val();
 
 		if (artist, title, year, price, shape == "") {
 			alert("Please fill out all fields.");
 		}
 		else if (year < 1939 || year > 2014)  {
-			alert("Invalid year for Blue Note Records. Please try again");
+			alert("Invalid year for Blue Note Records. Please try again.");
 		}
 		else if (year.length !== 4 || isNaN(year)) {
-			alert("Invalid year. Please try again");
+			alert("Invalid year. Please try again.");
 		}
 		else if (priceResult == null) {
-			alert("Invalid price. Please try again");
+			alert("Invalid price. Please try again.");
 		}
-		else if (shape !== "nm" && shape !== "e" && shape !== "vg" && shape !== "g" && shape !== "f" && shape !== "p") {
-			alert("Shape must be NM, E, VG, G, F, or P. Please try again");
+		else if (shape !== "Near Mint" && shape !== "Excellent" && shape !== "Very Good" && shape !== "Good" && shape !== "Fair" && shape !== "Poor") {
+			alert("Only Near Mint, Excellent, Very Good, Good, Fair, or Poor (Case-sensitive). Please try again.");
 		} 
 		else {
 			$("form").submit();
