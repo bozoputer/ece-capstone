@@ -1,6 +1,6 @@
 //----Include-Function----
 function include(url){
- document.write('<script type="text/javascript" src="js/'+ url + '"></script>');
+ document.write('<script type="text/javascript" src="intro-js/'+ url + '"></script>');
  return false ;
 }
 
