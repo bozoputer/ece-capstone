@@ -167,7 +167,7 @@
 </div>
 
 <!-- Foundation Reveal - Price list modal -->
-<div id="pricelist" class="reveal-modal" data-reveal>
+<div id="pricelist" class="reveal-modal medium" data-reveal>
     <?php
 
     require'../ext_includes/capstone2.inc.php';
