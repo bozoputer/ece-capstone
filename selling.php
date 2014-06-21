@@ -26,7 +26,7 @@
 
       <section class="top-bar-section">
         <ul class="right">
-          <li><a href="intro/index.html">Intro</a></li>
+          <li><a href="index.html">Intro</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#"><span id="current">Selling</span></a></li>
           <li><a href="buying.html">Buying</a></li>
