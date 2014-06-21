@@ -75,6 +75,37 @@ span#attribution {
 	margin: 0 auto;
 }
 
+.success {
+	color: #afd8f0;
+	position: absolute;
+	top: 160px;
+	left: 40px;
+	padding: 5px 0 7px 40px;
+	background: url(../images/success.png) no-repeat top left;
+}
+
+/* ***** ORBIT SLIDER ***** */
+.orbit-container .orbit-next, .orbit-container .orbit-next > span {
+	display: none;
+}
+
+.orbit-container .orbit-prev, .orbit-container .orbit-prev > span {
+	display: none;
+}
+
+.orbit-container .orbit-slide-number, .orbit-container .orbit-slide-number span, .orbit-container .orbit-timer, .orbit-container:hover .orbit-timer > span {
+   display: none;
+}
+
+.orbit-container .orbit-bullets li {
+ 	background-color: #0066ae;
+}
+
+.orbit-container .orbit-bullets li.active {
+    background-color: #cd005e;
+}
+
+
 /* ***** MEDIA QUERIES ***** */
 
 @media screen and (max-width: 1024px) and (min-width: 320px) {
