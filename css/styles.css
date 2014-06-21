@@ -68,20 +68,8 @@ span#attribution {
 	padding: 0 10px;
 }
 
-
-/* *****Price list page styles***** */
-
-.priceList table {
+table {
 	margin: 0 auto;
-}
-
-.success {
-	color: #afd8f0;
-	position: absolute;
-	top: 160px;
-	left: 40px;
-	padding: 5px 0 7px 40px;
-	background: url(../images/success.png) no-repeat top left;
 }
 
 /* ***** ORBIT SLIDER ***** */
@@ -103,6 +91,17 @@ span#attribution {
 
 .orbit-container .orbit-bullets li.active {
     background-color: #cd005e;
+}
+
+/* *****Contact page styles***** */
+
+.success {
+	color: #afd8f0;
+	position: absolute;
+	top: 160px;
+	left: 40px;
+	padding: 5px 0 7px 40px;
+	background: url(../images/success.png) no-repeat top left;
 }
 
 
