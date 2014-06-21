@@ -55,8 +55,19 @@ span#finest {
 	font-style: italic;
 }
 span#current {
+	color: #cd005e;
+}
+span#current:hover {
 	color: #0066ae;
 }
+
+span#attribution {
+	font-style: italic;
+	font-size: 14px;
+	color: #cd005e;
+	padding: 0 10px;
+}
+
 
 /* *****Price list page styles***** */
 
