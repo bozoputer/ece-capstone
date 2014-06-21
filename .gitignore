@@ -1,3 +1,6 @@
 *.sublime-project
 *.sublime-workspace
 *config.codekit
+/draft1
+/draft2
+.htaccess
