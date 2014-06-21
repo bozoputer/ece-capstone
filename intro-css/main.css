@@ -156,7 +156,7 @@ a {
 	width:422px
 }
 .enter {
-	background:url(../images/bg-white.jpg);
+	background:url(../intro-images/bg-white.jpg);
 	color:#cd005e;
 	font-size:20px;
 	text-decoration:none;
@@ -178,7 +178,7 @@ a {
 }
 .enter span {
 	display:inline-block;
-	background:url(../images/arrow-splash.png) no-repeat 0 0;
+	background:url(../intro-images/arrow-splash.png) no-repeat 0 0;
 	width:21px;
 	height:21px;
 	margin:8px 0 0 14px;
