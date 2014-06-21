@@ -145,7 +145,7 @@
 
               <br>
 
-              <a href="#" class="small radius button">Contact</a>
+              <a href="contact.html" class="small radius button">Contact</a>
             </div>
           </div>
         <div class="large-6 small-6 columns">
@@ -160,7 +160,7 @@
       <div class="large-4 columns hide-for-small">
         <h4>Additional Info</h4><hr/>
         <a class="large button expand" href="#" data-reveal-id="pricelist">View Price List</a>
-        <a class="large button expand" href="#">Questions? Contact Me!</a>
+        <a class="large button expand" href="contact.html">Questions? Contact Me!</a>
       </div>
     </div>
   </div>
