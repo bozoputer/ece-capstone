@@ -54,6 +54,10 @@ dialog .close-reveal-modal, .reveal-modal .close-reveal-modal {
 span#finest {
 	font-style: italic;
 }
+span#current {
+	color: #0066ae;
+}
+
 /* *****Price list page styles***** */
 
 .priceList table {
