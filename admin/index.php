@@ -70,8 +70,8 @@ $(document).ready(function() {
 		else if (priceResult == null) {
 			alert("Invalid price. Please try again.");
 		}
-		else if (shape !== "Near Mint" && shape !== "Excellent" && shape !== "Very Good" && shape !== "Good" && shape !== "Fair" && shape !== "Poor") {
-			alert("Only Near Mint, Excellent, Very Good, Good, Fair, or Poor (Case-sensitive). Please try again.");
+		else if (shape !== "NM" && shape !== "E" && shape !== "VG" && shape !== "G" && shape !== "F" && shape !== "P") {
+			alert("Only NM, E, VG, G, F, or P (Case-sensitive). Please try again.");
 		} 
 		else {
 			$("form").submit();
