@@ -25,7 +25,7 @@ a {
 #animated {
 	padding-top: 15px;
 }
-p {
+div.bodyCopy p {
 	font-family: 'Oswald', Arial, sans-serif;
 	font-size: 24px;
 	padding: 0 5px;
