@@ -30,6 +30,12 @@ div.bodyCopy p {
 	font-size: 24px;
 	padding: 0 5px;
 }
+
+#bluenote p {
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 24px;
+}
+
 .top-bar-section li:not(.has-form) a:not(.button):hover {
         background: #cd005e;
 }
