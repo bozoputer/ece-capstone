@@ -25,7 +25,7 @@ meta.foundation-data-attribute-namespace {
   font-family: false; }
 
 html, body {
-  height: 100%; }
+  height: auto; }
 
 *,
 *:before,
