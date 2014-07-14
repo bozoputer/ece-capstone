@@ -67,6 +67,7 @@
     }
 
     $result = mysqli_query($db,"SELECT * FROM records");
+    $id = $row['id'];
 
     echo "<table>
     <tr>
@@ -84,6 +85,8 @@
       echo "<td>" . $row['year'] . "</td>";
       echo "<td>" . $row['price'] . "</td>";
       echo "<td>" . $row['shape'] . "</td>";
+      echo '<td><a href="edit.php?id=' . $row['id'] . '">Update</a></td>';
+      echo '<td><a href="edit.php?id=' . $row['id'] . '">Delete</a></td>';
       echo "</tr>";
     }
 
