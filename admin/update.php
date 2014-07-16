@@ -1,4 +1,5 @@
-<?php  
+<?php
+//Connect to the database
 require ('../../ext_includes/capstone2.inc.php');
 $db = mysqli_connect($host, $user_name, $password, $db);
 
