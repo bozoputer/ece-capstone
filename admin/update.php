@@ -8,6 +8,11 @@ if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
+//Fetch product data.
+$album_id = $_GET['id'];
+$query = "select artist, title, year, shape
+from records
+where album_id = " . $album_id;
 ?>
 
 <!doctype html>
@@ -49,6 +54,48 @@ if (mysqli_connect_errno()) {
   </div>
 </div>
 
+<div class="row">
+  <div class="small-12 columns">
+  	<form method="POST" action="add_rec.php"> 
+  <div class="row">
+    <div class="small-12 large-6 columns">
+      <label>Artist
+        <input type="text" name="artist" id="artist" placeholder="Artist Name" />
+      </label>
+    </div>
+    <div class="small-12 large-6 columns">
+      <label>Album
+        <input type="text" name="title" id="title" placeholder="Album Title" />
+      </label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-4 columns">
+      <label>Year
+        <input type="text" name="year" id="year" placeholder="Release Year" />
+      </label>
+    </div>
+    <div class="small-4 columns">
+      <label>Price
+        <input type="text" name="price" id="price" placeholder="Price" />
+      </label>
+    </div>
+    <div class="small-4 columns">
+      <label>Condition
+        <input type="text" name="shape" id="shape" placeholder="Album Condition" />
+      </label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <a href="#" class="button radius" id="addAlbum">Submit</a>
+    </div>
+  </div>
+  </form>
+  </div>
+</div>
 
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/foundation/js/foundation.min.js"></script>
