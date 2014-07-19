@@ -193,7 +193,7 @@
 </div>
 
 <!-- Foundation Reveal - Confirm delete record modal -->
-<div id="confirmDelete" class="reveal-modal medium" data-reveal>
+<div id="confirmDelete" class="reveal-modal small" data-reveal>
 
   <a class="close-reveal-modal">&#215;</a>
 </div>
