@@ -41,7 +41,7 @@
   <div class="small-12 columns">
     <div class="panel">
       <h5>E's Blue Notes - Admininistration Page</h5> 
-      <p>Click the appropriate button or hyperlink below to add, update, or delete a record from the pricing table.</p> 
+      <p>Click the appropriate button below to add, update, or delete a record from the pricing table.</p> 
     </div>
   </div>
 </div>
