@@ -8,4 +8,13 @@ if (mysqli_connect_errno()) {
 }
 
 
+$album_id = $_GET['id'];
+
+$result = mysqli_query($db,"SELECT title FROM records where id = $album_id;");
+
+$row = mysqli_fetch_array($result);
+      	   
+echo "<p>Are you sure you want to delete " . $row['title'] . " from the database?</p>";
+
+mysqli_close($db);
 ?>
