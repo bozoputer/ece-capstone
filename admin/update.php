@@ -8,7 +8,7 @@ if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-//Fetch product data.
+//Fetch album data.
 $album_id = $_GET['id'];
 $query = "select artist, title, year, shape
 from records
