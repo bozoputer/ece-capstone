@@ -28,10 +28,15 @@
 
 		$row = mysqli_fetch_array($result);
 		      	   
-		echo "<p>Are you sure you want to delete " . $row['title'] . " from the database?</p>";
+		echo "<p>Delete " . $row['title'] . " from the database?</p>";
 
 		mysqli_close($db);
 	?>
+
+    <ul class="button-group" id="confirmDeleteButtons">
+      <li><a href="#" class="button" data-reveal-id="addRecord">Add</a></li>
+      <li><a href="#" class="button red" data-reveal-id="deleteRecord">Delete</a></li>
+    </ul>  
 
   </div>
 </div>
