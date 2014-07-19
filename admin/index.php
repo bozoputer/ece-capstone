@@ -50,7 +50,7 @@
   <div class="small-12 small-centered columns">
     <ul class="button-group">
       <li><a href="#" class="button" data-reveal-id="addRecord">Add</a></li>
-      <li><a href="<?php echo 'delete.php?id=' . $row['id'] . ''?>" class="button red" data-reveal-id="deleteRecord">Delete</a></li>
+      <li><a href="#" class="button red" data-reveal-id="deleteRecord">Delete</a></li>
       <li><a href="#" class="button green">Edit</a></li>
     </ul>  
   </div>
