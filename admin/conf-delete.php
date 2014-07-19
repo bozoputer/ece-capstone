@@ -1,24 +1,3 @@
-<?php 
-require ('../../ext_includes/capstone2.inc.php');
-$db = mysqli_connect($host, $user_name, $password, $db);
-
-// Check connection
-if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
-
-
-$album_id = $_GET['id'];
-
-$result = mysqli_query($db,"SELECT title FROM records where id = $album_id;");
-
-$row = mysqli_fetch_array($result);
-      	   
-echo "<p>Are you sure you want to delete " . $row['title'] . " from the database?</p>";
-
-mysqli_close($db);
-?>
-
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -31,6 +10,31 @@ mysqli_close($db);
   <script src="../bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
+
+<div class="row">
+  <div class="small-12 columns">
+  	<?php 
+		require ('../../ext_includes/capstone2.inc.php');
+		$db = mysqli_connect($host, $user_name, $password, $db);
+
+		// Check connection
+		if (mysqli_connect_errno()) {
+		  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+		}
+
+		$album_id = $_GET['id'];
+
+		$result = mysqli_query($db,"SELECT title FROM records where id = $album_id;");
+
+		$row = mysqli_fetch_array($result);
+		      	   
+		echo "<p>Are you sure you want to delete " . $row['title'] . " from the database?</p>";
+
+		mysqli_close($db);
+	?>
+
+  </div>
+</div>
 
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/foundation/js/foundation.min.js"></script>
