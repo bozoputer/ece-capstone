@@ -49,8 +49,8 @@
 <div class="row">
   <div class="small-12 small-centered columns">
     <ul class="button-group">
-      <li><a href="#" class="button">Add</a></li>
-      <li><a href="#" class="button red">Delete</a></li>
+      <li><a href="#" class="button" data-reveal-id="addRecord">Add</a></li>
+      <li><a href="<?php echo 'delete.php?id=' . $row['id'] . ''?>" class="button red" data-reveal-id="deleteRecord">Delete</a></li>
       <li><a href="#" class="button green">Edit</a></li>
     </ul>  
   </div>
@@ -143,6 +143,61 @@
   </form>
   <a class="close-reveal-modal">&#215;</a>
 </div>
+
+<!-- Foundation Reveal - Delete record modal -->
+<div id="deleteRecord" class="reveal-modal medium" data-reveal>
+  <div class="row">
+  <div class="small-12 columns">
+    <?php
+
+    require'../../ext_includes/capstone2.inc.php';
+    $db = mysqli_connect($host, $user_name, $password, $db);
+
+    // Check connection
+    if (mysqli_connect_errno()) {
+      echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    }
+
+    $result = mysqli_query($db,"SELECT * FROM records");
+    $id = $row['id'];
+
+    echo "<table>
+    <tr>
+    <th>Artist</th>
+    <th>Title</th>
+    <th>Year</th>
+    <th>Price</th>
+    <th>Condition</th>
+    </tr>";
+
+    while($row = mysqli_fetch_array($result)) {
+      echo "<tr>";
+      echo "<td>" . $row['artist'] . "</td>";
+      echo "<td>" . $row['title'] . "</td>";
+      echo "<td>" . $row['year'] . "</td>";
+      echo "<td>" . "$". $row['price'] . "</td>";
+      echo "<td>" . $row['shape'] . "</td>";
+      // echo '<td><a href="update.php?id=' . $row['id'] . '">Update</a></td>';
+      echo '<td><a data-reveal-ajax="true" data-reveal-id="confirmDelete" href="delete.php?id=' . $row['id'] . '">Delete</a></td>';
+      echo "</tr>";
+    }
+
+    echo "</table>";
+
+    mysqli_close($db);
+    ?> 
+  </div>
+</div>
+
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<!-- Foundation Reveal - Confirm delete record modal -->
+<div id="confirmDelete" class="reveal-modal medium" data-reveal>
+
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../bower_components/foundation/js/foundation.min.js"></script>
 <script src="../js/app.js"></script>
