@@ -133,6 +133,21 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background: url(../images/success.png) no-repeat top left;
 }
 
+/* ***** Admin page styles ***** */
+
+.button-group {
+	margin: 0 auto;
+	width: 300px;
+}
+
+.red {
+	background-color: #c40221;
+}
+
+.green {
+	background-color: #3fb802;
+}
+
 
 /* ***** MEDIA QUERIES ***** */
 
