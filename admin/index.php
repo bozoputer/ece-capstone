@@ -47,8 +47,12 @@
 </div>
 
 <div class="row">
-  <div class="small-12 columns">
-    <a href="#" class="button radius" data-reveal-id="addRecord">Add Record</a>
+  <div class="small-12 small-centered columns">
+    <ul class="button-group">
+      <li><a href="#" class="button">Add</a></li>
+      <li><a href="#" class="button red">Delete</a></li>
+      <li><a href="#" class="button green">Edit</a></li>
+    </ul>  
   </div>
 </div>
 
