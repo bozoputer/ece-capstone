@@ -87,7 +87,7 @@
       echo "<td>" . $row['artist'] . "</td>";
       echo "<td>" . $row['title'] . "</td>";
       echo "<td>" . $row['year'] . "</td>";
-      echo "<td>" . $row['price'] . "</td>";
+      echo "<td>" . "$". $row['price'] . "</td>";
       echo "<td>" . $row['shape'] . "</td>";
       // echo '<td><a href="update.php?id=' . $row['id'] . '">Update</a></td>';
       // echo '<td><a href="delete.php?id=' . $row['id'] . '">Delete</a></td>';
