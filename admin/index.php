@@ -178,7 +178,7 @@
       echo "<td>" . "$". $row['price'] . "</td>";
       echo "<td>" . $row['shape'] . "</td>";
       // echo '<td><a href="update.php?id=' . $row['id'] . '">Update</a></td>';
-      echo '<td><a data-reveal-ajax="true" data-reveal-id="confirmDelete" href="delete.php?id=' . $row['id'] . '">Delete</a></td>';
+      echo '<td><a data-reveal-ajax="true" data-reveal-id="confirmDelete" href="conf-delete.php?id=' . $row['id'] . '">Delete</a></td>';
       echo "</tr>";
     }
 
