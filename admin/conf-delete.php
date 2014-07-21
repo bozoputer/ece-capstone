@@ -34,8 +34,8 @@
 	?>
 
     <ul class="button-group" id="confirmDeleteButtons">
-      <li><a href="#" class="button" data-reveal-id="addRecord">Add</a></li>
-      <li><a href="#" class="button red" data-reveal-id="deleteRecord">Delete</a></li>
+      <li><a href="#" class="button red">Delete</a></li>
+      <li><a href="index.php" class="button green">Cancel</a></li>
     </ul>  
 
   </div>
