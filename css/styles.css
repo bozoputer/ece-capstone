@@ -148,6 +148,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background-color: #3fb802;
 }
 
+.button-group#confirmDeleteButtons {
+	margin: 0 auto;
+	width: 225px;
+}
 
 /* ***** MEDIA QUERIES ***** */
 
