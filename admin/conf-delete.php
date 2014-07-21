@@ -28,7 +28,7 @@
 
 		$row = mysqli_fetch_array($result);
 		      	   
-		echo "<p>Delete " . $row['title'] . " from the database?</p>";
+		echo "<p>Delete<span class=\"deleteTitle\"> " . $row['title'] . "</span> from the database?</p>";
 
 		mysqli_close($db);
 	?>

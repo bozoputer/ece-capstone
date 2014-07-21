@@ -153,6 +153,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 	width: 225px;
 }
 
+.deleteTitle {
+	color: #c40221;
+	font-style: italic;
+}
+
 /* ***** MEDIA QUERIES ***** */
 
 @media screen and (max-width: 1024px) and (min-width: 320px) {
