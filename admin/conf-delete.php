@@ -28,14 +28,17 @@
 
 		$row = mysqli_fetch_array($result);
 		      	   
-		echo "<p>Delete<span class=\"deleteTitle\"> " . $row['title'] . "</span> from the database?</p>";
+		echo "<p class=\"delete\">Delete<span class=\"deleteTitle\"> " . $row['title'] . "</span> from the database?</p>";
 
 		mysqli_close($db);
 	?>
 
     <ul class="button-group" id="confirmDeleteButtons">
-      <li><a href="#" class="button red">Delete</a></li>
-      <li><a href="index.php" class="button green">Cancel</a></li>
+      <form method="post" action="delete_rec.php">
+      <li><button type="submit" class="red">Delete</button></li>
+      <input type="hidden" name="id" value="<?php print $album_id; ?>">
+      </form>
+      <li><a href="index.php"><button class="green">Cancel</button></a></li>
     </ul>  
 
   </div>
