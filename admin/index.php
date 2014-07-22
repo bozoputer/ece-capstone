@@ -195,7 +195,7 @@
 <!-- Foundation Reveal - Confirm delete record modal -->
 <div id="confirmDelete" class="reveal-modal small" data-reveal>
 
-  <a class="close-reveal-modal">&#215;</a>
+
 </div>
 
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
