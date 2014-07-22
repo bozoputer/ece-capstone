@@ -98,7 +98,7 @@ button, .button {
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #cd005e;
+    background-color: #333;
 }
 
 /* ***** ORBIT SLIDER ***** */
