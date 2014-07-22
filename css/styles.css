@@ -150,12 +150,19 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 .button-group#confirmDeleteButtons {
 	margin: 0 auto;
-	width: 225px;
+	width: 240px;
 }
 
 .deleteTitle {
 	color: #c40221;
 	font-style: italic;
+}
+
+.delete {
+	margin: 0 auto;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
 }
 
 /* ***** MEDIA QUERIES ***** */
