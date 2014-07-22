@@ -29,8 +29,12 @@ $sql = "INSERT INTO records (artist, title, year, price, shape) VALUES  ('$artis
 if (!mysqli_query($db,$sql)) {
   die('Error: ' . mysqli_error($db));
 }
-echo "1 record added ";
-echo $sql;
+
+// echo "1 record added ";
+// echo $sql;
+
+//Back to admin menu.
+header('location:index.php');
 
 mysqli_close($db);
 
