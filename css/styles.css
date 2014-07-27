@@ -135,9 +135,18 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 /* ***** Admin page styles ***** */
 
-.button-group {
+.button-group#addEditDelete {
 	margin: 0 auto;
 	width: 300px;
+}
+
+.button-group#confirmDeleteButtons {
+	margin: 0 auto;
+	width: 240px;
+}
+
+.button-group#editSubmitButtons {
+	width: 240px;
 }
 
 .red {
@@ -148,10 +157,6 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background-color: #3fb802;
 }
 
-.button-group#confirmDeleteButtons {
-	margin: 0 auto;
-	width: 240px;
-}
 
 .deleteTitle {
 	color: #c40221;
