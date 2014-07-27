@@ -49,19 +49,19 @@
       <ul class="carousel" data-orbit>
         <li>
           <div class="large-3 small-6 columns">
-            <img src="http://placehold.it/250x250&text=Thumbnail"/>
+            <img src="images/selling/artBlakey.jpg" alt=""/>
             <h6 class="panel">Description</h6>
           </div>
           <div class="large-3 small-6 columns">
-            <img src="http://placehold.it/250x250&text=Thumbnail"/>
+            <img src="images/selling/babyFaceWillette.jpg" alt=""/>
             <h6 class="panel">Description</h6>
           </div>
           <div class="large-3 small-6 columns">
-            <img src="http://placehold.it/250x250&text=Thumbnail"/>
+            <img src="images/selling/bobbyHutcherson.jpg" alt=""/>
             <h6 class="panel">Description</h6>
           </div>  
           <div class="large-3 small-6 columns">
-            <img src="http://placehold.it/250x250&text=Thumbnail"/>
+            <img src="images/selling/dexterGordon.jpg" alt=""/>
             <h6 class="panel">Description</h6>
           </div>
         </li>
