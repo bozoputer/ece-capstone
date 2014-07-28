@@ -72,6 +72,8 @@
         </div>
       </div>
 
+      <input type="hidden" name="album_id" value="<?php print $album_id ?>" />
+
       <div class="row">
         <div class="small-12 columns">
           <ul class="button-group" id="editSubmitButtons">
