@@ -25,16 +25,26 @@
 
       //Fetch album data.
       $album_id = $_GET['id'];
-      $query = "select artist, title, year, shape
+
+      $result = mysqli_query($db,"SELECT artist, title, year, price, shape
       from records
-      where album_id = " . $album_id;
+      where id = " . $album_id);
+
+      $row = mysqli_fetch_array($result);
+      
+      //Extract fields.
+      $artist = $row['artist'];
+      $title = $row['title'];
+      $year = $row['year'];
+      $price = $row['price'];
+      $shape = $row['shape'];
     ?>
 
   	<form method="POST" action="save_edit.php"> 
       <div class="row">
         <div class="small-12 large-6 columns">
           <label>Artist
-            <input type="text" name="artist" id="artist_B" />
+            <input type="text" name="artist" id="artist_B" value="<?php print $row['artist']; ?>" />
           </label>
         </div>
         <div class="small-12 large-6 columns">
