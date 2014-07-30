@@ -49,7 +49,7 @@
         </div>
         <div class="small-12 large-6 columns">
           <label>Album
-            <input type="text" name="title" id="title_B"/>
+            <input type="text" name="title" id="title_B" value="<?php print $row['title']; ?>"/>
           </label>
         </div>
       </div>
@@ -57,17 +57,17 @@
       <div class="row">
         <div class="small-4 columns">
           <label>Year
-            <input type="text" name="year" id="year_B" />
+            <input type="text" name="year" id="year_B" value="<?php print $row['year']; ?>" />
           </label>
         </div>
         <div class="small-4 columns">
           <label>Price
-            <input type="text" name="price" id="price_B" />
+            <input type="text" name="price" id="price_B" value="<?php print $row['price']; ?>" />
           </label>
         </div>
         <div class="small-4 columns">
           <label>Condition
-            <input type="text" name="shape" id="shape_B" />
+            <input type="text" name="shape" id="shape_B" value="<?php print $row['shape']; ?>" />
           </label>
         </div>
       </div>
