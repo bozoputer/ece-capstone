@@ -9,11 +9,11 @@ if (mysqli_connect_errno()) {
 
 
 //Get the form fields.
-$artist = ($_POST['artist']);
-$title = ($_POST['title']);
-$year = ($_POST['year']);
-$price = ($_POST['price']);
-$shape = ($_POST['shape']);
+$artist = stripslashes($_POST['artist']);
+$title = stripslashes($_POST['title']);
+$year = stripslashes($_POST['year']);
+$price = stripslashes($_POST['price']);
+$shape = stripslashes($_POST['shape']);
 
 
 //Make the fields safe.
