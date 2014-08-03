@@ -73,11 +73,19 @@ dialog .close-reveal-modal, .reveal-modal .close-reveal-modal {
 span#finest {
 	font-style: italic;
 }
+
 span#current {
 	color: #cd005e;
 }
-span#current:hover {
+
+.top-bar-section ul li > a:hover, span.year {
 	color: #0066ae;
+	font-weight: bold;
+}
+
+.top-bar-section ul li > a:hover span#current{
+	font-weight: bold;
+	color: #fff;
 }
 
 span#attribution {
@@ -101,7 +109,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     background-color: #333;
 }
 
-/* ***** ORBIT SLIDER ***** */
+/* ***** For Sale page styles ***** */
 .orbit-container .orbit-next, .orbit-container .orbit-next > span {
 	display: none;
 }
