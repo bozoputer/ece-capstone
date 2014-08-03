@@ -6,9 +6,38 @@
   <title>E's Blue Note Record Collection - Prices</title>
   <link rel="stylesheet" href="css/app.css" />
   <link rel="stylesheet" href="css/styles.css" />
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
-<body>  
+<body>
+<div class="row fullWidth">
+  <div class="large-12 columns">
+    <nav class="top-bar navBar" data-topbar>
+      <ul class="title-area">  
+        <li class="name">
+          <h1>
+            <a href="#">
+            E's Blue Notes
+            </a>
+          </h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="index.html">Intro</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="selling.php">Selling</span></a></li>
+          <li><a href="#"><span id="current">Prices</a></li>
+          <li><a href="buying.html">Buying</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+</div>
+
 <div class="row">
 	<div class="small-12 columns priceList" style="border: 1px solid red;">
 		<?php
@@ -48,5 +77,8 @@
 		?> 
 	</div>
 </div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
