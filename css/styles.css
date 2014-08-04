@@ -130,6 +130,10 @@ button:hover, button:focus, .button:hover, .button:focus {
     background-color: #cd005e;
 }
 
+.orbit-container .orbit-bullets li:hover {
+    cursor: pointer;
+}
+
 /* *****Contact page styles***** */
 
 .success {
