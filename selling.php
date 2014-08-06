@@ -50,76 +50,76 @@
         <li>
           <div class="large-3 small-6 columns">
             <img src="images/selling/artBlakey.jpg" alt=""/>
-            <h6 class="panel">Blue Note 4003 <span class="year">1958</span></h6>
+            <h6 class="panel">Blue Note 4003</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/babyFaceWillette.jpg" alt=""/>
-            <h6 class="panel">Blue Note 4068 <span class="year">1961</span></h6>
+            <h6 class="panel">Blue Note 4068</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/bobbyHutcherson.jpg" alt=""/>
-            <h6 class="panel">Blue Note 4231 <span class="year">1966</span></h6>
+            <h6 class="panel">Blue Note 4231</h6>
           </div>  
           <div class="large-3 small-6 columns">
             <img src="images/selling/dexterGordon.jpg" alt=""/>
-            <h6 class="panel">Blue Note 4112 <span class="year">1962</span></h6>
+            <h6 class="panel">Blue Note 4112</h6>
           </div>
         </li>
 
         <li>
           <div class="large-3 small-6 columns">
             <img src="images/selling/dukeJordan.jpg"/>
-            <h6 class="panel">Blue Note 4046 <span class="year">1960</span></h6>
+            <h6 class="panel">Blue Note 4046</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/freddieHubbard.jpg"/>
-            <h6 class="panel">Blue Note 4115 <span class="year">1962</span></h6>
+            <h6 class="panel">Blue Note 4115</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/grantGreen.jpg"/>
-            <h6 class="panel">Blue Note 4132 <span class="year">1961</span> </h6>
+            <h6 class="panel">Blue Note 4132</h6>
           </div>  
           <div class="large-3 small-6 columns">
             <img src="images/selling/grantGreen2.jpg"/>
-            <h6 class="panel">Blue Note 4071 <span class="year">1961</span></h6>
+            <h6 class="panel">Blue Note 4071</h6>
           </div>
         </li>
 
         <li>
           <div class="large-3 small-6 columns">
             <img src="images/selling/hankMobley.jpg"/>
-            <h6 class="panel">Blue Note <span class="year">1961</span></h6>
+            <h6 class="panel">Blue Note</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/hankMobley2.jpg"/>
-            <h6 class="panel">Blue Note 4058 <span class="year">1960</span></h6>
+            <h6 class="panel">Blue Note 4058</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/ikeQuebec.jpg"/>
-            <h6 class="panel">Blue Note 4114 <span class="year">1962</span></h6>
+            <h6 class="panel">Blue Note 4114</h6>
           </div>  
           <div class="large-3 small-6 columns">
             <img src="images/selling/jimmySmith.jpg"/>
-            <h6 class="panel">Blue Note 1525 <span class="year">1956</span></h6>
+            <h6 class="panel">Blue Note 1525</h6>
           </div>
         </li>
 
         <li>
           <div class="large-3 small-6 columns">
             <img src="images/selling/johnColtrane.jpg"/>
-            <h6 class="panel">Blue Note 1577 <span class="year">1957</span></h6>
+            <h6 class="panel">Blue Note 1577</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/kennyDorham.jpg"/>
-            <h6 class="panel">Blue Note 1524 <span class="year">1956</span></h6>
+            <h6 class="panel">Blue Note 1524</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/sonnyClark.jpg"/>
-            <h6 class="panel">Blue Note 1588 <span class="year">1958</span></h6>
+            <h6 class="panel">Blue Note 1588</h6>
           </div>  
           <div class="large-3 small-6 columns">
             <img src="images/selling/wayneShorter.jpg"/>
-            <h6 class="panel">Blue Note 4194 <span class="year">1965</span></h6>
+            <h6 class="panel">Blue Note 4194</h6>
           </div>
         </li>
       </ul>
