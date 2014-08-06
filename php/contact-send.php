@@ -12,7 +12,7 @@
   body {
   	color: #cd005e;
   	font-family: 'Oswald', Arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
   }
 
   div#errors {
