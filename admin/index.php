@@ -29,7 +29,6 @@
           <li><a href="../index.html">Intro</a></li>
           <li><a href="../about.html">About</a></li>
           <li><a href="../selling.php">Selling</a></li>
-          <li><a href="../buying.html">Buying</a></li>
           <li><a href="../contact.html">Contact</a></li>
         </ul>
       </section>

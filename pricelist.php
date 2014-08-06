@@ -30,7 +30,6 @@
           <li><a href="about.html">About</a></li>
           <li><a href="selling.php">Selling</span></a></li>
           <li><a href="#"><span id="current">Prices</a></li>
-          <li><a href="buying.html">Buying</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </section>
