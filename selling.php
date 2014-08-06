@@ -28,7 +28,7 @@
         <ul class="right">
           <li><a href="index.html">Intro</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#"><span id="current">Selling</span></a></li>
+          <li><a href="#"><span id="current">For Sale</span></a></li>
           <li><a href="pricelist.php">Prices</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
