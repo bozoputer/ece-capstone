@@ -37,34 +37,34 @@
   </div>
 </div>
 
-<h3>Get in touch via e-mail</h3>
-		<p class="contact_info">All fields are required</p>
-		
+<div class="row">
+	<div class="large-12 columns">
+		<h3>Get in touch via e-mail</h3>
+		<p style="color: #cd005e;">All fields are required</p>
+
 		<form method="post" action="php/contact-send.php" id="contact_form">
 
-		<p><label class="form_label" for='name'>Name</label>
+			<p><label class="form_label" for='name'>Name</label>
 			<input id='form_name' type='text' name='name' class="textbox" value='' /></p>
-			
-		<p><label class="form_label" for='email'>E-mail</label>
+
+			<p><label class="form_label" for='email'>E-mail</label>
 			<input id='form_email' type='text' name='email' class="textbox" value='' /></p>
-			
-		<p><label class="form_label" for='message'>Message</label>
+
+			<p><label class="form_label" for='message'>Message</label>
 			<textarea id='form_message' rows='5' cols='25' name='message' class="textbox"></textarea></p>
 
-		<input id='form_submit' type='submit' name='submit' value='Send message' />
-		
-		<!-- hidden input for basic spam protection -->
-		<div class='hide'>
+			<input id='form_submit' type='submit' name='submit' value='Send message' />
+
+			<!-- hidden input for basic spam protection -->
+			<div class='hide'>
 			<label for='spamCheck'>Do not fill out this field</label>
 			<input id="spamCheck" name='spam_check' type='text' value='' />
-		</div>		
-	</form>		
-	<!-- contact form ends here-->	
+			</div>
 
-	<!-- This div will be shown if mail was sent successfully -->		
-	<div class="hide success">
-	<p>Thanks! Your email has been sent.</p>
-	</div>
+		</form>
+	</div>	
+</div><!-- end row -->
+
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="js/app.js"></script>
