@@ -87,8 +87,8 @@
 
         <li>
           <div class="large-3 small-6 columns">
-            <img src="images/selling/hankMobley.jpg"/>
-            <h6 class="panel">Blue Note</h6>
+            <img src="images/selling/grantGreen3.jpg"/>
+            <h6 class="panel">Blue Note 4154</h6>
           </div>
           <div class="large-3 small-6 columns">
             <img src="images/selling/hankMobley2.jpg"/>
