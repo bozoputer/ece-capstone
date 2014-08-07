@@ -134,6 +134,10 @@ button:hover, button:focus, .button:hover, .button:focus {
     cursor: pointer;
 }
 
+h6 {
+	text-align: center;
+}
+
 /* *****Contact page styles***** */
 
 .success {
