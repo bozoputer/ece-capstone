@@ -47,81 +47,229 @@
   <div class="large-12 columns">
     <div class="row">
       <ul class="carousel" data-orbit>
+      <!-- FIRST FOUR -->
         <li>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/artBlakey.jpg" alt=""/>
-            <h6 class="panel">Blue Note 4003</h6>
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/artBlakey.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4003</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/artBlakey.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
           </div>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/babyFaceWillette.jpg" alt=""/>
-            <h6 class="panel">Blue Note 4068</h6>
-          </div>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/bobbyHutcherson.jpg" alt=""/>
-            <h6 class="panel">Blue Note 4231</h6>
-          </div>  
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/dexterGordon.jpg" alt=""/>
-            <h6 class="panel">Blue Note 4112</h6>
-          </div>
-        </li>
 
-        <li>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/dukeJordan.jpg"/>
-            <h6 class="panel">Blue Note 4046</h6>
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/babyFaceWillette.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4068</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/babyFaceWillette.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
           </div>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/freddieHubbard.jpg"/>
-            <h6 class="panel">Blue Note 4115</h6>
-          </div>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/grantGreen.jpg"/>
-            <h6 class="panel">Blue Note 4132</h6>
-          </div>  
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/grantGreen2.jpg"/>
-            <h6 class="panel">Blue Note 4071</h6>
-          </div>
-        </li>
 
-        <li>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/grantGreen3.jpg"/>
-            <h6 class="panel">Blue Note 4154</h6>
-          </div>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/hankMobley2.jpg"/>
-            <h6 class="panel">Blue Note 4058</h6>
-          </div>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/ikeQuebec.jpg"/>
-            <h6 class="panel">Blue Note 4114</h6>
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/bobbyHutcherson.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4231</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/bobbyHutcherson.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
           </div>  
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/jimmySmith.jpg"/>
-            <h6 class="panel">Blue Note 1525</h6>
-          </div>
-        </li>
 
-        <li>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/johnColtrane.jpg"/>
-            <h6 class="panel">Blue Note 1577</h6>
-          </div>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/kennyDorham.jpg"/>
-            <h6 class="panel">Blue Note 1524</h6>
-          </div>
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/sonnyClark.jpg"/>
-            <h6 class="panel">Blue Note 1588</h6>
-          </div>  
-          <div class="large-3 small-6 columns">
-            <img src="images/selling/wayneShorter.jpg"/>
-            <h6 class="panel">Blue Note 4194</h6>
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/dexterGordon.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4112</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/dexterGordon.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
           </div>
         </li>
+        <!-- END FIRST FOUR -->
+
+        <!-- SECOND FOUR -->
+        <li>
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/dukeJordan.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4046</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/dukeJordan.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/freddieHubbard.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4115</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/freddieHubbard.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/grantGreen.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4132</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/grantGreen.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>  
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/grantGreen2.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4071</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/grantGreen2.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- END SECOND FOUR -->
+
+        <!-- THIRD FOUR -->
+        <li>
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/grantGreen3.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4154</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/grantGreen3.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/hankMobley2.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4058</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/hankMobley2.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/ikeQuebec.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4114</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/ikeQuebec.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>  
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/jimmySmith.jpg" alt=""/>
+                <h6 class="panel">Blue Note 1525</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/jimmySmith.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- END THIRD FOUR -->
+
+        <!-- FOURTH FOUR -->
+        <li>
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/johnColtrane.jpg" alt=""/>
+                <h6 class="panel">Blue Note 1577</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/johnColtrane.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/kennyDorham.jpg" alt=""/>
+                <h6 class="panel">Blue Note 1524</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/kennyDorham.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/sonnyClark.jpg" alt=""/>
+                <h6 class="panel">Blue Note 1588</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/sonnyClark.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>  
+
+          <div class="large-3 small-6 columns wrapper">
+            <div class="square">
+              <div class="face">
+                <img src="images/selling/wayneShorter.jpg" alt=""/>
+                <h6 class="panel">Blue Note 4194</h6>
+              </div>
+              <div class="face back">
+                <img src="images/selling/wayneShorter.gif" alt=""/>
+                <h6 class="panel">Test</h6>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- END FOURTH FOUR -->
       </ul>
     </div>
   </div>
