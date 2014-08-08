@@ -194,12 +194,19 @@ h6 {
 }
 
 .face.back img {
-	opacity: 0.98;
+	opacity: 0.97;
 }
 
 #forSale {
 	position: relative;
 	top: 20px;
+}
+
+.notes {
+	color: #cd005e;
+	margin-top: 35px;
+	text-align: center;
+	font-style: italic;
 }
 
 /* *****Contact page styles***** */
