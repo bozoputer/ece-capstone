@@ -57,7 +57,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/artBlakey.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/babyFaceWillette.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/bobbyHutcherson.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>  
@@ -96,7 +96,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/dexterGordon.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/dukeJordan.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -122,11 +122,11 @@
             <div class="square">
               <div class="face">
                 <img src="images/selling/freddieHubbard.jpg" alt=""/>
-                <h6 class="panel">Blue Note 4115</h6>
+                <h6 class="panel ">Blue Note 4115</h6>
               </div>
               <div class="face back">
                 <img src="images/selling/freddieHubbard.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/grantGreen.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>  
@@ -152,7 +152,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/grantGreen2.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/grantGreen3.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -182,7 +182,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/hankMobley2.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/ikeQuebec.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>  
@@ -208,7 +208,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/jimmySmith.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -225,7 +225,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/johnColtrane.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -238,7 +238,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/kennyDorham.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/sonnyClark.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>  
@@ -264,7 +264,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/wayneShorter.gif" alt=""/>
-                <h6 class="panel">Test</h6>
+                <h6 class="panel pinkBold">Test</h6>
               </div>
             </div>
           </div>
@@ -279,10 +279,10 @@
   <div class="small-12 large-6 columns">
     <div class="panel radius">
     <h4>For Sale</h4><hr/>
-    <h5 class="subheader">These are the albums I currently have for sale. New albums are added all the time, so please check back often.
+    <h5 class="subheader">These are the albums I currently have for sale. New albums are added frequently, so please check back often.
     <br />
     <br />
-    I'm open to trading records, too, so please contact me if you're interested in a trade!
+    I'm also open to trading records, so please contact me if you're interested in trading instead of buying!
     </h5>
     </div>
   </div>
