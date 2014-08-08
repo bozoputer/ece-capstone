@@ -193,6 +193,10 @@ h6 {
    transform: rotateY(180deg);
 }
 
+.face.back img {
+	opacity: 0.98;
+}
+
 /* *****Contact page styles***** */
 
 .success {
