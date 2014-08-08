@@ -330,7 +330,10 @@
     echo "</table>";
 
     mysqli_close($db);
-    ?> 
+    ?>
+
+    <p class="notes"><sup>*</sup>Please see the prices page for detailed pricing information</p>
+
   <a class="close-reveal-modal">&#215;</a>
 </div>
     
