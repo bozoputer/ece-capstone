@@ -83,7 +83,7 @@ span#current {
 	font-weight: bold;
 }
 
-span.pinkBold {
+span.pinkBold, h6.pinkBold {
 	color: #cd005e;
 	font-weight: bold;
 }
@@ -223,10 +223,6 @@ h6 {
 
 table tr th {
 	color: #0066ae;
-}
-
-td {
-	text-align: center;
 }
 
 /* *****Contact page styles***** */
