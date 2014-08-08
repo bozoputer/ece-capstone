@@ -78,8 +78,13 @@ span#current {
 	color: #cd005e;
 }
 
-.top-bar-section ul li > a:hover, span.year {
+.top-bar-section ul li > a:hover {
 	color: #0066ae;
+	font-weight: bold;
+}
+
+span.pinkBold {
+	color: #cd005e;
 	font-weight: bold;
 }
 
@@ -208,6 +213,13 @@ h6 {
 	text-align: center;
 	font-style: italic;
 }
+
+.notes a {
+	text-decoration: underline;
+}
+
+
+/* *****Table styles***** */
 
 table tr th {
 	color: #0066ae;
