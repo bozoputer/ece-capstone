@@ -332,7 +332,7 @@
     mysqli_close($db);
     ?>
 
-    <p class="notes"><sup>*</sup>Please see the prices page for detailed pricing information</p>
+    <p class="notes"><sup>*</sup>Please see the <a class="prices" href="pricelist.php">prices</a> page for detailed pricing information</p>
 
   <a class="close-reveal-modal">&#215;</a>
 </div>
