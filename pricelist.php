@@ -86,13 +86,14 @@
 <div class="row">
 	<div class="small-12 columns">
 		<br />
+		<br />
 		<span class="pinkBold">Near Mint (NM)</span>
 		<p>A good description of a NM record is “it looks like it just came from a retail store and it was opened for the first time.” In other words, it’s nearly perfect. Many dealers won’t use a grade higher than this, implying (perhaps correctly) that no record or sleeve is ever truly perfect.</p>
 
 		<p>NM covers are free of creases, ring wear and seam splits of any kind.</p>
 
 		<span class="pinkBold">Excellent (E)</span>
-		<p>A good description of an E record is “except for a couple minor things, this would be Near Mint.” Most collectors, especially those who want to play their records, will be happy with a VG+ record, especially if it toward the high end of the grade.</p>
+		<p>A good description of an E record is “except for a couple minor things, this would be Near Mint”. Most collectors, especially those who want to play their records, will be happy with an E record, especially if it's toward the high end of the grade.</p>
 
 		<p>E records may show some slight signs of wear, including light scuffs or very light scratches that do not affect the listening experience. Slight warps that do not affect the sound are OK. Minor signs of handling are OK, too, such as telltale marks around the center hole. There may be some very light ring wear or discoloration, but it should be barely noticeable.</p>
 
@@ -104,7 +105,7 @@
 		<span class="pinkBold">Good (G)</span>
 		<p>These records go for 10 to 15 percent of the Near Mint value.
 
-		<p>Good does not mean bad, but the record has significant surface noise and groove wear, and the label is worn, with significant ring wear, heavy writing, or obvious damage. A Good cover has ring wear to the point of distraction, has seam splits obvious on sight, and may have even heavier writing</p>
+		<p>Good does not mean bad, but the record has significant surface noise and groove wear, and the label is worn, with significant ring wear, heavy writing, or obvious damage. A Good cover has ring wear to the point of distraction, has seam splits obvious on sight, and may have even heavier writing.</p>
 
 		<span class="pinkBold">POOR (P) / Fair (F)</span>
 		<p>Poor (P) and Fair (F) records go for 0 to 5 percent of the Near Mint value, if they go at all. More likely, they end up going in the trash. Records are cracked, impossibly warped, or skip and/or repeat when an attempt is made to play them. Covers are generally heavily damaged.<p>
