@@ -276,41 +276,21 @@
 </div>
 
 <div class="row">
-  <div class="large-12 columns">
-    <div class="row">
-      <div class="large-8 columns">
-        <div class="panel radius">
-
-        <div class="row">
-          <div class="large-6 small-6 columns">
-
-            <h4>Header</h4><hr/>
-            <h5 class="subheader">Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis.
-            </h5>
-
-            <div class="show-for-small" align="center">
-              <a href="#" class="small radius button" data-reveal-id="pricelist">Prices</a>
-
-              <br>
-
-              <a href="contact.html" class="small radius button">Contact</a>
-            </div>
-          </div>
-        <div class="large-6 small-6 columns">
-
-          <p>
-          </p>
-        </div>
-      </div>
+  <div class="small-12 large-6 columns">
+    <div class="panel radius">
+    <h4>For Sale</h4><hr/>
+    <h5 class="subheader">These are the albums I currently have for sale. New albums are added all the time, so please check back often.
+    <br />
+    <br />
+    I'm open to trading records, too, so please contact me if you're interested in a trade!
+    </h5>
     </div>
   </div>
 
-      <div class="large-4 columns hide-for-small">
-        <h4>Additional Info</h4><hr/>
-        <a class="large button expand" href="#" data-reveal-id="pricelist">View Price List</a>
-        <a class="large button expand" href="contact.html">Questions? Contact Me!</a>
-      </div>
-    </div>
+  <div class="small-12 large-6 columns">
+    <h4>Additional Info</h4><hr/>
+    <a class="large button expand" href="#" data-reveal-id="pricelist">View Price List</a>
+    <a class="large button expand" href="contact.html">Questions? Contact Me!</a>
   </div>
 </div>
 
@@ -328,7 +308,7 @@
 
     $result = mysqli_query($db,"SELECT * FROM records");
 
-    echo "<table>
+    echo "<table id=\"forSale\">
     <tr>
     <th>Artist</th>
     <th>Title</th>
