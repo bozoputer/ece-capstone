@@ -197,6 +197,11 @@ h6 {
 	opacity: 0.98;
 }
 
+#forSale {
+	position: relative;
+	top: 20px;
+}
+
 /* *****Contact page styles***** */
 
 .success {
