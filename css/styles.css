@@ -209,6 +209,14 @@ h6 {
 	font-style: italic;
 }
 
+table tr th {
+	color: #0066ae;
+}
+
+td {
+	text-align: center;
+}
+
 /* *****Contact page styles***** */
 
 .success {
