@@ -160,7 +160,7 @@
       $result = mysqli_query($db,"SELECT * FROM records");
       $id = $row['id'];
 
-      echo "<table>
+      echo "<table id=\"forSale\">
       <tr>
       <th>Artist</th>
       <th>Title</th>
@@ -210,7 +210,7 @@
       $result = mysqli_query($db,"SELECT * FROM records");
       $id = $row['id'];
 
-      echo "<table>
+      echo "<table id=\"forSale\">
       <tr>
       <th>Artist</th>
       <th>Title</th>
