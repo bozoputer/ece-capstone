@@ -40,11 +40,15 @@
 <div class="row">
 	<div class="small-12 columns">
 		<h2>Record Prices and Conditions</h2>
+		<p class="notes">All prices USD.</p>
 	</div>
 </div>
 
 <div class="row">
 	<div class="small-12 columns">
+
+		<br />
+
 		<?php
 
 		require'../ext_includes/capstone2.inc.php';
@@ -85,8 +89,11 @@
 
 <div class="row">
 	<div class="small-12 columns">
+
 		<br />
 		<br />
+		<br />
+
 		<span class="pinkBold">Near Mint (NM)</span>
 		<p>A good description of a NM record is “it looks like it just came from a retail store and it was opened for the first time.” In other words, it’s nearly perfect. Many dealers won’t use a grade higher than this, implying (perhaps correctly) that no record or sleeve is ever truly perfect.</p>
 
@@ -110,7 +117,7 @@
 		<span class="pinkBold">POOR (P) / Fair (F)</span>
 		<p>Poor (P) and Fair (F) records go for 0 to 5 percent of the Near Mint value, if they go at all. More likely, they end up going in the trash. Records are cracked, impossibly warped, or skip and/or repeat when an attempt is made to play them. Covers are generally heavily damaged.<p>
 
-		<p>Only the most outrageously rare items ever sell for more than a few cents in this condition</p>
+		<p>Only the most outrageously rare items ever sell for more than a few cents in this condition.</p>
 
 		<p class="notes">Excerpted from <a href="http://www.goldminemag.com/collector-resources/record-grading-101">Record Grading 101: Understanding The Goldmine Grading Guide</a>.</p>
 
