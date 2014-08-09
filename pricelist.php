@@ -75,7 +75,7 @@
 		  echo "<td>" . $row['artist'] . "</td>";
 		  echo "<td>" . $row['title'] . "</td>";
 		  echo "<td>" . $row['year'] . "</td>";
-		  echo "<td>" . $row['price'] . "</td>";
+		  echo "<td>" . "$". $row['price'] . "</td>";
 		  echo "<td>" . $row['shape'] . "</td>";
 		  echo "</tr>";
 		}
