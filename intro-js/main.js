@@ -218,6 +218,4 @@ userScale="";
 if(!result){
 userScale=",user-scalable=0"
 }
-document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0'+userScale+'">')
-/* ------ load sound for HTML -----*/
-document.write('<audio id="beep-two" controls preload="auto" style="display:none"><source src="audio/beep.mp3" controls></source><source src="audio/beep.ogg" controls></source></audio>') 
+document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0'+userScale+'">');
