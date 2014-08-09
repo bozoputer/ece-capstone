@@ -57,7 +57,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/artBlakey.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1958</h6>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/babyFaceWillette.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1960</h6>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/bobbyHutcherson.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1967</h6>
               </div>
             </div>
           </div>  
@@ -96,7 +96,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/dexterGordon.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1962</h6>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/dukeJordan.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1960</h6>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/freddieHubbard.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1962</h6>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/grantGreen.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1963</h6>
               </div>
             </div>
           </div>  
@@ -152,7 +152,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/grantGreen2.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1961</h6>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/grantGreen3.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1964</h6>
               </div>
             </div>
           </div>
@@ -182,7 +182,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/hankMobley2.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1960</h6>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/ikeQuebec.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1962</h6>
               </div>
             </div>
           </div>  
@@ -208,7 +208,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/jimmySmith.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1956</h6>
               </div>
             </div>
           </div>
@@ -225,7 +225,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/johnColtrane.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1957</h6>
               </div>
             </div>
           </div>
@@ -238,7 +238,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/kennyDorham.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1956</h6>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/sonnyClark.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1958</h6>
               </div>
             </div>
           </div>  
@@ -264,7 +264,7 @@
               </div>
               <div class="face back">
                 <img src="images/selling/wayneShorter.gif" alt=""/>
-                <h6 class="panel pinkBold">Test</h6>
+                <h6 class="panel pinkBold">1965</h6>
               </div>
             </div>
           </div>
@@ -322,7 +322,7 @@
       echo "<td>" . $row['artist'] . "</td>";
       echo "<td>" . $row['title'] . "</td>";
       echo "<td>" . $row['year'] . "</td>";
-      echo "<td>" . $row['price'] . "</td>";
+      echo "<td>" . "$". $row['price'] . "</td>";
       echo "<td>" . $row['shape'] . "</td>";
       echo "</tr>";
     }
