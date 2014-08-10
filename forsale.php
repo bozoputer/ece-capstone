@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>E Boone's Bluenote Record Collection - Albums For Sale</title>
+  <meta name="keywords" content="blue note records, jazz vinyl, vintage jazz, record collection, records for sale, jazz music">
   <link rel="stylesheet" href="css/app.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>

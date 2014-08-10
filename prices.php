@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="blue note records, jazz vinyl, vintage jazz, record collection, records for sale, prices">
   <title>E Boone's Bluenote Record Collection - Album Prices</title>
   <link rel="stylesheet" href="css/app.css" />
   <link rel="stylesheet" href="css/styles.css" />
