@@ -40,7 +40,7 @@
 
 <div class="row firstRow">
   <div class="small-12 columns">
-    <img id="logo" src="images/bnLogo3.png" />
+    <img id="logo" src="images/bnLogo3.png" alt="Blue Note Records logo" />
   </div>
 </div>
 
@@ -53,11 +53,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/artBlakey.jpg" alt=""/>
+                <img src="images/selling/artBlakey.jpg" alt="Art Blakey and the Jazz Messengers - Moanin' album cover"/>
                 <h6 class="panel">Blue Note 4003</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/artBlakey.gif" alt=""/>
+                <img src="images/selling/artBlakey.gif" alt="Art Blakey and the Jazz Messengers - Moanin'"/>
                 <h6 class="panel pinkBold">1958</h6>
               </div>
             </div>
@@ -66,11 +66,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/babyFaceWillette.jpg" alt=""/>
+                <img src="images/selling/babyFaceWillette.jpg" alt="Baby Face Willette - Face to Face album cover"/>
                 <h6 class="panel">Blue Note 4068</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/babyFaceWillette.gif" alt=""/>
+                <img src="images/selling/babyFaceWillette.gif" alt="Baby Face Willette - Face to Face"/>
                 <h6 class="panel pinkBold">1960</h6>
               </div>
             </div>
@@ -79,11 +79,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/bobbyHutcherson.jpg" alt=""/>
+                <img src="images/selling/bobbyHutcherson.jpg" alt="Bobby Hutcherson - Happenings album cover"/>
                 <h6 class="panel">Blue Note 4231</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/bobbyHutcherson.gif" alt=""/>
+                <img src="images/selling/bobbyHutcherson.gif" alt="Bobby Hutcherson - Happenings"/>
                 <h6 class="panel pinkBold">1967</h6>
               </div>
             </div>
@@ -92,11 +92,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/dexterGordon.jpg" alt=""/>
+                <img src="images/selling/dexterGordon.jpg" alt="Dexter Gordon - Go album cover"/>
                 <h6 class="panel">Blue Note 4112</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/dexterGordon.gif" alt=""/>
+                <img src="images/selling/dexterGordon.gif" alt="Dexter Gordon - Go"/>
                 <h6 class="panel pinkBold">1962</h6>
               </div>
             </div>
@@ -109,11 +109,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/dukeJordan.jpg" alt=""/>
+                <img src="images/selling/dukeJordan.jpg" alt="Duke Jordan - Flight to Jordan album cover"/>
                 <h6 class="panel">Blue Note 4046</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/dukeJordan.gif" alt=""/>
+                <img src="images/selling/dukeJordan.gif" alt="Duke Jordan - Flight to Jordan"/>
                 <h6 class="panel pinkBold">1960</h6>
               </div>
             </div>
@@ -122,11 +122,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/freddieHubbard.jpg" alt=""/>
+                <img src="images/selling/freddieHubbard.jpg" alt="Freddie Hubbard - Hub-Tones album cover"/>
                 <h6 class="panel ">Blue Note 4115</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/freddieHubbard.gif" alt=""/>
+                <img src="images/selling/freddieHubbard.gif" alt="Freddie Hubbard - Hub-Tones"/>
                 <h6 class="panel pinkBold">1962</h6>
               </div>
             </div>
@@ -135,11 +135,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/grantGreen.jpg" alt=""/>
+                <img src="images/selling/grantGreen.jpg" alt="Grant Green - Feelin' The Spirit album cover"/>
                 <h6 class="panel">Blue Note 4132</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/grantGreen.gif" alt=""/>
+                <img src="images/selling/grantGreen.gif" alt="Grant Green - Feelin' The Spirit"/>
                 <h6 class="panel pinkBold">1963</h6>
               </div>
             </div>
@@ -148,11 +148,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/grantGreen2.jpg" alt=""/>
+                <img src="images/selling/grantGreen2.jpg" alt="Grant Green - Green Street album cover"/>
                 <h6 class="panel">Blue Note 4071</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/grantGreen2.gif" alt=""/>
+                <img src="images/selling/grantGreen2.gif" alt="Grant Green - Green Street"/>
                 <h6 class="panel pinkBold">1961</h6>
               </div>
             </div>
@@ -165,11 +165,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/grantGreen3.jpg" alt=""/>
+                <img src="images/selling/grantGreen3.jpg" alt="Grant Green - Idle Moments album cover"/>
                 <h6 class="panel">Blue Note 4154</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/grantGreen3.gif" alt=""/>
+                <img src="images/selling/grantGreen3.gif" alt="Grant Green - Idle Moments"/>
                 <h6 class="panel pinkBold">1964</h6>
               </div>
             </div>
@@ -178,11 +178,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/hankMobley2.jpg" alt=""/>
+                <img src="images/selling/hankMobley2.jpg" alt="Hank Mobley - Roll Call album cover"/>
                 <h6 class="panel">Blue Note 4058</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/hankMobley2.gif" alt=""/>
+                <img src="images/selling/hankMobley2.gif" alt="Hank Mobley - Roll Call"/>
                 <h6 class="panel pinkBold">1960</h6>
               </div>
             </div>
@@ -191,11 +191,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/ikeQuebec.jpg" alt=""/>
+                <img src="images/selling/ikeQuebec.jpg" alt="Ike Quebec - Soul Samba album cover"/>
                 <h6 class="panel">Blue Note 4114</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/ikeQuebec.gif" alt=""/>
+                <img src="images/selling/ikeQuebec.gif" alt="Ike Quebec - Soul Samba"/>
                 <h6 class="panel pinkBold">1962</h6>
               </div>
             </div>
@@ -204,11 +204,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/jimmySmith.jpg" alt=""/>
+                <img src="images/selling/jimmySmith.jpg" alt="Jimmy Smith - At the Organ album cover"/>
                 <h6 class="panel">Blue Note 1525</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/jimmySmith.gif" alt=""/>
+                <img src="images/selling/jimmySmith.gif" alt="Jimmy Smith - At the Organ"/>
                 <h6 class="panel pinkBold">1956</h6>
               </div>
             </div>
@@ -221,11 +221,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/johnColtrane.jpg" alt=""/>
+                <img src="images/selling/johnColtrane.jpg" alt="John Coltrane - Blue Train album cover"/>
                 <h6 class="panel">Blue Note 1577</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/johnColtrane.gif" alt=""/>
+                <img src="images/selling/johnColtrane.gif" alt="John Coltrane - Blue Train"/>
                 <h6 class="panel pinkBold">1957</h6>
               </div>
             </div>
@@ -234,11 +234,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/kennyDorham.jpg" alt=""/>
+                <img src="images/selling/kennyDorham.jpg" alt="Kenny Dorham - 'Round About Midnight at the Café Bohemia album cover"/>
                 <h6 class="panel">Blue Note 1524</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/kennyDorham.gif" alt=""/>
+                <img src="images/selling/kennyDorham.gif" alt="Kenny Dorham - 'Round About Midnight at the Café Bohemia"/>
                 <h6 class="panel pinkBold">1956</h6>
               </div>
             </div>
@@ -247,11 +247,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/sonnyClark.jpg" alt=""/>
+                <img src="images/selling/sonnyClark.jpg" alt="Sonny Clark - Cool Struttin' album cover"/>
                 <h6 class="panel">Blue Note 1588</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/sonnyClark.gif" alt=""/>
+                <img src="images/selling/sonnyClark.gif" alt="Sonny Clark - Cool Struttin'"/>
                 <h6 class="panel pinkBold">1958</h6>
               </div>
             </div>
@@ -260,11 +260,11 @@
           <div class="large-3 small-6 columns wrapper">
             <div class="square">
               <div class="face">
-                <img src="images/selling/wayneShorter.jpg" alt=""/>
+                <img src="images/selling/wayneShorter.jpg" alt="Wayne Shorter - Speak No Evil album cover"/>
                 <h6 class="panel">Blue Note 4194</h6>
               </div>
               <div class="face back">
-                <img src="images/selling/wayneShorter.gif" alt=""/>
+                <img src="images/selling/wayneShorter.gif" alt="Wayne Shorter - Speak No Evil"/>
                 <h6 class="panel pinkBold">1965</h6>
               </div>
             </div>
